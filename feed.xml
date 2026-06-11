@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Vicky’s French Journal</title>
     <link>https://wenminli961201-cell.github.io/vickys-french-journal-podcast/feed.xml</link>
     <atom:link href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <language>fr-FR</language>
     <description>Les conversations, les réflexions et la voix de Vicky, partagées en privé.</description>
-    <itunes:author>Vicky</itunes:author>
+    <itunes:author>Gut Vogel</itunes:author>
+    <dc:creator>Gut Vogel</dc:creator>
     <itunes:summary>Les conversations, les réflexions et la voix de Vicky, partagées en privé.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
@@ -15,8 +16,10 @@
 
     <item>
       <title>Entre compréhension, limites et distance dans une amitié</title>
-      <description>Entre compréhension, limites et distance dans une amitié. Ces derniers temps, j’ai beaucoup réfléchi à une relation amicale qui m’a amenée à me poser des questions sur les limites, l’empathie et l’estime de soi. Tout a commencé par un événement en apparence assez anodin. Un jeudi midi, j’avais organisé chez moi une rencontre pour essayer des robes de demoiselles d’honneur pour notre amie Diana. J’avais commandé seize robes en ligne, et elles étaient soigneusement disposées dans mon salon. J’avai</description>
-      <itunes:summary>Entre compréhension, limites et distance dans une amitié. Ces derniers temps, j’ai beaucoup réfléchi à une relation amicale qui m’a amenée à me poser des questions sur les limites, l’empathie et l’estime de soi. Tout a commencé par un événement en apparence assez anodin. Un jeudi midi, j’avais organisé chez moi une rencontre pour essayer des robes de demoiselles d’honneur pour notre amie Diana. J’avais commandé seize robes en ligne, et elles étaient soigneusement disposées dans mon salon. J’avai</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Entre compréhension, limites et distance dans une amitié ». Une exploration sensible de nos relations, de leurs fragilités et de la manière dont elles nous transforment.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Entre compréhension, limites et distance dans une amitié ». Une exploration sensible de nos relations, de leurs fragilités et de la manière dont elles nous transforment.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">87799cda-6f3b-4989-b55d-00b703cd8b77</guid>
       <pubDate>Thu, 11 Jun 2026 20:48:11 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204811-entre-compr-hension-limites-et-distance-dans-une-amiti.mp3" length="2710944" type="audio/mpeg" />
@@ -25,8 +28,10 @@
     </item>
     <item>
       <title>Comprendre les autres et se comprendre soi-même : réflexions sur les relations humaines et l’apprentissage</title>
-      <description>Comprendre les autres et se comprendre soi-même : réflexions sur les relations humaines et l’apprentissage. Ces derniers temps, j’ai eu l’occasion d’échanger avec mon professeur de français, qui se trouve actuellement à Paris pour suivre une formation en psychologie. Pendant plusieurs jours, il a participé à un programme intensif mêlant théorie et pratique. À travers des exercices en groupe, elle a pu observer à quel point la qualité de la relation entre le thérapeute et le patient constitue un </description>
-      <itunes:summary>Comprendre les autres et se comprendre soi-même : réflexions sur les relations humaines et l’apprentissage. Ces derniers temps, j’ai eu l’occasion d’échanger avec mon professeur de français, qui se trouve actuellement à Paris pour suivre une formation en psychologie. Pendant plusieurs jours, il a participé à un programme intensif mêlant théorie et pratique. À travers des exercices en groupe, elle a pu observer à quel point la qualité de la relation entre le thérapeute et le patient constitue un </itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Comprendre les autres et se comprendre soi-même : réflexions sur les relations humaines et l’apprentissage ». Une exploration sensible de nos relations, de leurs fragilités et de la manière dont elles nous transforment.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Comprendre les autres et se comprendre soi-même : réflexions sur les relations humaines et l’apprentissage ». Une exploration sensible de nos relations, de leurs fragilités et de la manière dont elles nous transforment.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">7d984bef-cfbb-4ace-a679-74fd73f53703</guid>
       <pubDate>Thu, 11 Jun 2026 20:47:51 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204751-comprendre-les-autres-et-se-comprendre-soi-m-me-r-flexi.mp3" length="1833264" type="audio/mpeg" />
@@ -35,8 +40,10 @@
     </item>
     <item>
       <title>Petites réflexions sur la vie des chats et l’apprentissage</title>
-      <description>Petites réflexions sur la vie des chats et l’apprentissage. Récemment, j’ai discuté avec mon ami Jeremy, qui vit actuellement à Bali. Pendant qu’il donnait un cours en ligne, un chat affamé miaulait à côté de lui. Il m’a expliqué qu’il y avait de nombreux chats errants en Indonésie. Certains sont stérilisés pour éviter qu’ils ne continuent à se reproduire, mais malgré cela, ils manquent souvent de nourriture et viennent parfois dans les hôtels ou les maisons pour en chercher. Depuis presque troi</description>
-      <itunes:summary>Petites réflexions sur la vie des chats et l’apprentissage. Récemment, j’ai discuté avec mon ami Jeremy, qui vit actuellement à Bali. Pendant qu’il donnait un cours en ligne, un chat affamé miaulait à côté de lui. Il m’a expliqué qu’il y avait de nombreux chats errants en Indonésie. Certains sont stérilisés pour éviter qu’ils ne continuent à se reproduire, mais malgré cela, ils manquent souvent de nourriture et viennent parfois dans les hôtels ou les maisons pour en chercher. Depuis presque troi</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Petites réflexions sur la vie des chats et l’apprentissage ». Un épisode sur l'apprentissage, les doutes qui l'accompagnent et le plaisir de progresser à son propre rythme.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Petites réflexions sur la vie des chats et l’apprentissage ». Un épisode sur l'apprentissage, les doutes qui l'accompagnent et le plaisir de progresser à son propre rythme.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">bef84d2f-8748-459c-9a38-4238f91bf776</guid>
       <pubDate>Thu, 11 Jun 2026 20:47:36 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204736-petites-r-flexions-sur-la-vie-des-chats-et-l-apprentiss.mp3" length="2148480" type="audio/mpeg" />
@@ -45,8 +52,10 @@
     </item>
     <item>
       <title>Une expérience au sein de l’office du chômage et mes réflexions personnelles</title>
-      <description>Une expérience au sein de l’office du chômage et mes réflexions personnelles. Aujourd’hui, avec ma professeure, nous avons commencé par des sujets assez légers. Elle est à Paris, moi à Genève, et il fait déjà très chaud : environ 30 degrés à midi, et encore plus l’après-midi. Je lui ai confié que j’avais complètement perdu l’appétit. Je ne sais plus quoi cuisiner, et je me contente souvent de grignoter ce que je trouve dans mes placards. Elle m’a dit que c’était exactement pareil pour elle. La c</description>
-      <itunes:summary>Une expérience au sein de l’office du chômage et mes réflexions personnelles. Aujourd’hui, avec ma professeure, nous avons commencé par des sujets assez légers. Elle est à Paris, moi à Genève, et il fait déjà très chaud : environ 30 degrés à midi, et encore plus l’après-midi. Je lui ai confié que j’avais complètement perdu l’appétit. Je ne sais plus quoi cuisiner, et je me contente souvent de grignoter ce que je trouve dans mes placards. Elle m’a dit que c’était exactement pareil pour elle. La c</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Une expérience au sein de l’office du chômage et mes réflexions personnelles ». Un regard personnel sur le travail, les ambitions et la place que l'on souhaite donner à sa vie professionnelle.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Une expérience au sein de l’office du chômage et mes réflexions personnelles ». Un regard personnel sur le travail, les ambitions et la place que l'on souhaite donner à sa vie professionnelle.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">382b8d30-c7b3-4878-9b9a-c0bc9e4a604b</guid>
       <pubDate>Thu, 11 Jun 2026 20:47:19 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204719-une-exp-rience-au-sein-de-l-office-du-ch-mage-et-mes-r-.mp3" length="2683440" type="audio/mpeg" />
@@ -55,8 +64,10 @@
     </item>
     <item>
       <title>Entre liberté, travail et regard des autres</title>
-      <description>Entre liberté, travail et regard des autres. Aujourd’hui, avec ma professeure, nous avons commencé par parler de choses assez simples, comme la météo. Il fait déjà très chaud à Genève, au point que je dois changer ma couette d’hiver pour une couette d’été. Cette chaleur précoce nous a fait parler de mon week-end : je suis allée à une fête du vin où j’ai dégusté une vingtaine de vins différents — blancs, rosés et rouges. À la fin de la journée, j’étais complètement épuisée, avec beaucoup trop d’a</description>
-      <itunes:summary>Entre liberté, travail et regard des autres. Aujourd’hui, avec ma professeure, nous avons commencé par parler de choses assez simples, comme la météo. Il fait déjà très chaud à Genève, au point que je dois changer ma couette d’hiver pour une couette d’été. Cette chaleur précoce nous a fait parler de mon week-end : je suis allée à une fête du vin où j’ai dégusté une vingtaine de vins différents — blancs, rosés et rouges. À la fin de la journée, j’étais complètement épuisée, avec beaucoup trop d’a</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Entre liberté, travail et regard des autres ». Un regard personnel sur le travail, les ambitions et la place que l'on souhaite donner à sa vie professionnelle.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Entre liberté, travail et regard des autres ». Un regard personnel sur le travail, les ambitions et la place que l'on souhaite donner à sa vie professionnelle.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">9509b78c-876c-4c1e-9fe5-5627462161be</guid>
       <pubDate>Thu, 11 Jun 2026 20:47:01 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204701-entre-libert-travail-et-regard-des-autres.mp3" length="2628864" type="audio/mpeg" />
@@ -65,8 +76,10 @@
     </item>
     <item>
       <title>La chaleur, les choix de vie et la juste dose d’ambition</title>
-      <description>La chaleur, les choix de vie et la juste dose d’ambition. Aujourd’hui, avec ma professeure, nous avons commencé par parler du temps. Elle m’a dit qu’il faisait déjà très chaud à Milan. Je lui ai répondu qu’ici aussi, la chaleur était déjà bien installée, au point que je vais bientôt devoir remplacer ma couette d’hiver par une couette d’été. À midi, il faisait déjà 29 degrés, et demain, la température devrait monter jusqu’à 31 degrés. Pour elle, en Europe, c’est anormal : il fait trop chaud, trop</description>
-      <itunes:summary>La chaleur, les choix de vie et la juste dose d’ambition. Aujourd’hui, avec ma professeure, nous avons commencé par parler du temps. Elle m’a dit qu’il faisait déjà très chaud à Milan. Je lui ai répondu qu’ici aussi, la chaleur était déjà bien installée, au point que je vais bientôt devoir remplacer ma couette d’hiver par une couette d’été. À midi, il faisait déjà 29 degrés, et demain, la température devrait monter jusqu’à 31 degrés. Pour elle, en Europe, c’est anormal : il fait trop chaud, trop</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « La chaleur, les choix de vie et la juste dose d’ambition ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « La chaleur, les choix de vie et la juste dose d’ambition ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">b041d015-1b09-4018-9bc8-71cf9b329779</guid>
       <pubDate>Thu, 11 Jun 2026 20:46:38 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204638-la-chaleur-les-choix-de-vie-et-la-juste-dose-d-ambition.mp3" length="2998224" type="audio/mpeg" />
@@ -75,8 +88,10 @@
     </item>
     <item>
       <title>Les apparences, les différences culturelles et les limites de ce que je peux porter pour les autres</title>
-      <description>Les apparences, les différences culturelles et les limites de ce que je peux porter pour les autres. Aujourd’hui, pendant mon cours avec Thanh-Mai, nous avons parlé d’abord d’une conversation qu’elle venait d’avoir avec Bobae. Comme souvent, Bobae avait choisi un sujet libre, et cette fois-ci elle avait parlé de chirurgie esthétique en Corée du Sud. C’est un domaine très répandu là-bas, parce que l’apparence physique est prise très au sérieux. Même après le baccalauréat ou après la fin des étude</description>
-      <itunes:summary>Les apparences, les différences culturelles et les limites de ce que je peux porter pour les autres. Aujourd’hui, pendant mon cours avec Thanh-Mai, nous avons parlé d’abord d’une conversation qu’elle venait d’avoir avec Bobae. Comme souvent, Bobae avait choisi un sujet libre, et cette fois-ci elle avait parlé de chirurgie esthétique en Corée du Sud. C’est un domaine très répandu là-bas, parce que l’apparence physique est prise très au sérieux. Même après le baccalauréat ou après la fin des étude</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Les apparences, les différences culturelles et les limites de ce que je peux porter pour les autres ». Une exploration sensible de nos relations, de leurs fragilités et de la manière dont elles nous transforment.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Les apparences, les différences culturelles et les limites de ce que je peux porter pour les autres ». Une exploration sensible de nos relations, de leurs fragilités et de la manière dont elles nous transforment.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">bfdb1ff4-c30b-40c8-a6d0-c061585998e8</guid>
       <pubDate>Thu, 11 Jun 2026 20:46:15 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204615-les-apparences-les-diff-rences-culturelles-et-les-limit.mp3" length="3700080" type="audio/mpeg" />
@@ -85,8 +100,10 @@
     </item>
     <item>
       <title>Une soirée entre anciens camarades, la langue comme pratique, et des réflexions sur les stéréotypes</title>
-      <description>Une soirée entre anciens camarades, la langue comme pratique, et des réflexions sur les stéréotypes. Aujourd’hui, j’ai parlé avec ma professeure de français de ma soirée de la veille, de mes anciennes camarades de l’école de langue, et aussi de certaines réflexions plus délicates sur la vie à Genève, la sécurité, et les stéréotypes que l’on peut développer en vivant dans une ville frontalière. Hier soir, j’ai retrouvé quelques amies de mon école de français, ainsi que deux professeures. Nous avo</description>
-      <itunes:summary>Une soirée entre anciens camarades, la langue comme pratique, et des réflexions sur les stéréotypes. Aujourd’hui, j’ai parlé avec ma professeure de français de ma soirée de la veille, de mes anciennes camarades de l’école de langue, et aussi de certaines réflexions plus délicates sur la vie à Genève, la sécurité, et les stéréotypes que l’on peut développer en vivant dans une ville frontalière. Hier soir, j’ai retrouvé quelques amies de mon école de français, ainsi que deux professeures. Nous avo</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Une soirée entre anciens camarades, la langue comme pratique, et des réflexions sur les stéréotypes ». Un épisode sur l'apprentissage, les doutes qui l'accompagnent et le plaisir de progresser à son propre rythme.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Une soirée entre anciens camarades, la langue comme pratique, et des réflexions sur les stéréotypes ». Un épisode sur l'apprentissage, les doutes qui l'accompagnent et le plaisir de progresser à son propre rythme.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">b80471b5-3202-4a72-bee1-7ab2820b20b4</guid>
       <pubDate>Thu, 11 Jun 2026 20:45:48 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204548-une-soir-e-entre-anciens-camarades-la-langue-comme-prat.mp3" length="3919968" type="audio/mpeg" />
@@ -95,8 +112,10 @@
     </item>
     <item>
       <title>Danser, jouer, réfléchir</title>
-      <description>Danser, jouer, réfléchir. Aujourd’hui, j’ai parlé avec ma professeure vietnamienne d’un sujet assez inattendu : les jeux vidéo, la danse, et même une certaine vision de la liberté dans la vie. Au début, je lui ai expliqué que je jouais beaucoup à Stardew Valley en ce moment. J’aime ce jeu parce qu’il me permet de cultiver des récoltes, de construire ma maison, de parler aux villageois et même de flirter avec certains personnages. C’est un univers très riche, très apaisant, et je trouve cela fasc</description>
-      <itunes:summary>Danser, jouer, réfléchir. Aujourd’hui, j’ai parlé avec ma professeure vietnamienne d’un sujet assez inattendu : les jeux vidéo, la danse, et même une certaine vision de la liberté dans la vie. Au début, je lui ai expliqué que je jouais beaucoup à Stardew Valley en ce moment. J’aime ce jeu parce qu’il me permet de cultiver des récoltes, de construire ma maison, de parler aux villageois et même de flirter avec certains personnages. C’est un univers très riche, très apaisant, et je trouve cela fasc</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Danser, jouer, réfléchir ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Danser, jouer, réfléchir ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">afb7ef16-389c-4d74-8c63-1b44aebaa849</guid>
       <pubDate>Thu, 11 Jun 2026 20:45:23 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204523-danser-jouer-r-fl-chir.mp3" length="2570112" type="audio/mpeg" />
@@ -105,8 +124,10 @@
     </item>
     <item>
       <title>La maturité émotionnelle, un chemin plutôt qu’un déclic</title>
-      <description>La maturité émotionnelle, un chemin plutôt qu’un déclic. Aujourd’hui, j’ai parlé avec Jeremy, mon professeur de français, qui vient d’arriver à Ubud, à Bali. Il m’a raconté qu’il avait retrouvé deux amis là-bas et qu’ils avaient eu une conversation très profonde jusqu’à trois heures du matin. Cela m’a tout de suite parlé, parce que je lui ai dit que cette période de la vie me semblait particulièrement confuse. À un certain âge, on s’attend à ce que la vie devienne plus claire, plus stable, plus </description>
-      <itunes:summary>La maturité émotionnelle, un chemin plutôt qu’un déclic. Aujourd’hui, j’ai parlé avec Jeremy, mon professeur de français, qui vient d’arriver à Ubud, à Bali. Il m’a raconté qu’il avait retrouvé deux amis là-bas et qu’ils avaient eu une conversation très profonde jusqu’à trois heures du matin. Cela m’a tout de suite parlé, parce que je lui ai dit que cette période de la vie me semblait particulièrement confuse. À un certain âge, on s’attend à ce que la vie devienne plus claire, plus stable, plus </itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « La maturité émotionnelle, un chemin plutôt qu’un déclic ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « La maturité émotionnelle, un chemin plutôt qu’un déclic ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">e4e2ff49-0c87-4032-8a11-3b1eb67a676c</guid>
       <pubDate>Thu, 11 Jun 2026 20:45:05 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204505-la-maturit-motionnelle-un-chemin-plut-t-qu-un-d-clic.mp3" length="2807856" type="audio/mpeg" />
@@ -115,8 +136,10 @@
     </item>
     <item>
       <title>L’histoire d’Allaysa : entre abandon, fragilité et désir de recommencer à zéro</title>
-      <description>L’histoire d’Allaysa : entre abandon, fragilité et désir de recommencer à zéro. Aujourd’hui, j’ai parlé de mon amie Allaysa, une fille dont l’histoire me touche beaucoup et que je trouve à la fois très forte et très fragile. Allaysa est eurasienne : elle est moitié philippine, moitié américaine. Ses parents avaient une relation assez légère quand ils se sont rencontrés, puis sa mère est tombée enceinte. Son père, un homme français, n’était pas prêt à devenir père. Sa mère, très en colère, est al</description>
-      <itunes:summary>L’histoire d’Allaysa : entre abandon, fragilité et désir de recommencer à zéro. Aujourd’hui, j’ai parlé de mon amie Allaysa, une fille dont l’histoire me touche beaucoup et que je trouve à la fois très forte et très fragile. Allaysa est eurasienne : elle est moitié philippine, moitié américaine. Ses parents avaient une relation assez légère quand ils se sont rencontrés, puis sa mère est tombée enceinte. Son père, un homme français, n’était pas prêt à devenir père. Sa mère, très en colère, est al</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « L’histoire d’Allaysa : entre abandon, fragilité et désir de recommencer à zéro ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « L’histoire d’Allaysa : entre abandon, fragilité et désir de recommencer à zéro ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">deb74d09-c0d5-41d1-8c24-5c80c5ac863d</guid>
       <pubDate>Thu, 11 Jun 2026 20:44:50 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204450-l-histoire-d-allaysa-entre-abandon-fragilit-et-d-sir-de.mp3" length="2497824" type="audio/mpeg" />
@@ -125,8 +148,10 @@
     </item>
     <item>
       <title>Les jeux vidéo comme échappatoire et comme nostalgie</title>
-      <description>Les jeux vidéo comme échappatoire et comme nostalgie. Aujourd’hui, j’ai parlé avec mon professeur Jeremy des jeux vidéo, de la nostalgie, et de ce que j’appellerais peut-être une autre définition du luxe. La conversation a commencé de manière assez chaotique, parce que je me suis réveillée tard. La veille au soir, comme mon mari est en voyage d’affaires, j’avais un peu plus de liberté pour faire ce que je voulais, quand je voulais. J’en ai donc profité pour jouer à un jeu vidéo, et je me suis co</description>
-      <itunes:summary>Les jeux vidéo comme échappatoire et comme nostalgie. Aujourd’hui, j’ai parlé avec mon professeur Jeremy des jeux vidéo, de la nostalgie, et de ce que j’appellerais peut-être une autre définition du luxe. La conversation a commencé de manière assez chaotique, parce que je me suis réveillée tard. La veille au soir, comme mon mari est en voyage d’affaires, j’avais un peu plus de liberté pour faire ce que je voulais, quand je voulais. J’en ai donc profité pour jouer à un jeu vidéo, et je me suis co</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Les jeux vidéo comme échappatoire et comme nostalgie ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Les jeux vidéo comme échappatoire et comme nostalgie ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">3dcb4dbe-45e0-4e74-9f11-a5826a4f4e80</guid>
       <pubDate>Thu, 11 Jun 2026 20:44:29 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204429-les-jeux-vid-o-comme-chappatoire-et-comme-nostalgie.mp3" length="3330432" type="audio/mpeg" />
@@ -135,8 +160,10 @@
     </item>
     <item>
       <title>Un nouveau semestre, des doutes, et le désir de comprendre les autres</title>
-      <description>Un nouveau semestre, des doutes, et le désir de comprendre les autres. Aujourd’hui, j’ai parlé avec ma professeure de sa formation de cinq ans en psychologie, ou plus précisément en psychothérapie, ainsi que de mon futur semestre qui commencera à partir de septembre. Quand j’ai allumé la caméra, j’avais les cheveux complètement mouillés, parce que je venais de rentrer de la salle de sport. J’avais fait une séance d’une heure, mais sur le chemin du retour, il a commencé à pleuvoir très fort, et i</description>
-      <itunes:summary>Un nouveau semestre, des doutes, et le désir de comprendre les autres. Aujourd’hui, j’ai parlé avec ma professeure de sa formation de cinq ans en psychologie, ou plus précisément en psychothérapie, ainsi que de mon futur semestre qui commencera à partir de septembre. Quand j’ai allumé la caméra, j’avais les cheveux complètement mouillés, parce que je venais de rentrer de la salle de sport. J’avais fait une séance d’une heure, mais sur le chemin du retour, il a commencé à pleuvoir très fort, et i</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Un nouveau semestre, des doutes, et le désir de comprendre les autres ». Une exploration sensible de nos relations, de leurs fragilités et de la manière dont elles nous transforment.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Un nouveau semestre, des doutes, et le désir de comprendre les autres ». Une exploration sensible de nos relations, de leurs fragilités et de la manière dont elles nous transforment.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">54c1e5de-3cac-4ab0-8e0a-3e073b147aae</guid>
       <pubDate>Thu, 11 Jun 2026 20:44:06 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204406-un-nouveau-semestre-des-doutes-et-le-d-sir-de-comprendr.mp3" length="3541968" type="audio/mpeg" />
@@ -145,8 +172,10 @@
     </item>
     <item>
       <title>Le logement, les prix et la question de savoir où se sentir chez soi</title>
-      <description>Le logement, les prix et la question de savoir où se sentir chez soi. Aujourd’hui, j’ai parlé avec mon professeur de l’immobilier, du prix des logements, et plus largement de la question de savoir où l’on peut un jour se sentir réellement chez soi. La conversation a commencé assez simplement. Je lui ai demandé ce qu’il avait fait récemment à Bali, et il m’a raconté qu’il avait participé à une fête dans une maison louée avec piscine. Ils étaient huit, et la location n’avait coûté qu’environ 120 e</description>
-      <itunes:summary>Le logement, les prix et la question de savoir où se sentir chez soi. Aujourd’hui, j’ai parlé avec mon professeur de l’immobilier, du prix des logements, et plus largement de la question de savoir où l’on peut un jour se sentir réellement chez soi. La conversation a commencé assez simplement. Je lui ai demandé ce qu’il avait fait récemment à Bali, et il m’a raconté qu’il avait participé à une fête dans une maison louée avec piscine. Ils étaient huit, et la location n’avait coûté qu’environ 120 e</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Le logement, les prix et la question de savoir où se sentir chez soi ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Le logement, les prix et la question de savoir où se sentir chez soi ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">72b67e32-b793-4468-afa8-cc27d2e76ea2</guid>
       <pubDate>Thu, 11 Jun 2026 20:43:49 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204349-le-logement-les-prix-et-la-question-de-savoir-o-se-sent.mp3" length="2862576" type="audio/mpeg" />
@@ -155,8 +184,10 @@
     </item>
     <item>
       <title>Classes sociales, fatigue collective et quête d’une vie plus essentielle</title>
-      <description>Classes sociales, fatigue collective et quête d’une vie plus essentielle. Aujourd’hui, j’ai parlé avec ma professeure de français de la classe sociale, de l’économie actuelle, et de l’atmosphère sociale en Chine, mais aussi plus largement en Europe. La conversation a commencé de façon très simple : elle m’a demandé ce que j’avais fait aujourd’hui, et je lui ai dit que j’avais fait la grasse matinée. Je m’étais couchée vers 23 heures la veille, et je ne me suis réveillée que vers 10 heures du mat</description>
-      <itunes:summary>Classes sociales, fatigue collective et quête d’une vie plus essentielle. Aujourd’hui, j’ai parlé avec ma professeure de français de la classe sociale, de l’économie actuelle, et de l’atmosphère sociale en Chine, mais aussi plus largement en Europe. La conversation a commencé de façon très simple : elle m’a demandé ce que j’avais fait aujourd’hui, et je lui ai dit que j’avais fait la grasse matinée. Je m’étais couchée vers 23 heures la veille, et je ne me suis réveillée que vers 10 heures du mat</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Classes sociales, fatigue collective et quête d’une vie plus essentielle ». Une confidence sur le bien-être, les émotions et l'attention que nous pouvons accorder à nous-mêmes.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Classes sociales, fatigue collective et quête d’une vie plus essentielle ». Une confidence sur le bien-être, les émotions et l'attention que nous pouvons accorder à nous-mêmes.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">4663b01a-ecb6-4653-9f0a-1286ca9baeef</guid>
       <pubDate>Thu, 11 Jun 2026 20:43:25 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204325-classes-sociales-fatigue-collective-et-qu-te-d-une-vie-.mp3" length="3231936" type="audio/mpeg" />
@@ -165,8 +196,10 @@
     </item>
     <item>
       <title>Entre fatigue, ambition et lâcher-prise</title>
-      <description>Entre fatigue, ambition et lâcher-prise. Aujourd’hui, j’ai parlé avec ma professeure vietnamienne-française de plusieurs choses très liées entre elles : mon futur master, ma fatigue physique, la pression que je ressens dans la vie, et aussi la différence de personnalité entre mon mari et moi. Au fond, toute cette conversation tournait autour d’une même question : jusqu’où faut-il continuer à vouloir grimper plus haut, et à partir de quel moment faut-il apprendre à se tranquilliser. Au début du c</description>
-      <itunes:summary>Entre fatigue, ambition et lâcher-prise. Aujourd’hui, j’ai parlé avec ma professeure vietnamienne-française de plusieurs choses très liées entre elles : mon futur master, ma fatigue physique, la pression que je ressens dans la vie, et aussi la différence de personnalité entre mon mari et moi. Au fond, toute cette conversation tournait autour d’une même question : jusqu’où faut-il continuer à vouloir grimper plus haut, et à partir de quel moment faut-il apprendre à se tranquilliser. Au début du c</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Entre fatigue, ambition et lâcher-prise ». Une confidence sur le bien-être, les émotions et l'attention que nous pouvons accorder à nous-mêmes.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Entre fatigue, ambition et lâcher-prise ». Une confidence sur le bien-être, les émotions et l'attention que nous pouvons accorder à nous-mêmes.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">97ecdc62-882a-4a08-9154-60ed63e3551b</guid>
       <pubDate>Thu, 11 Jun 2026 20:43:00 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204300-entre-fatigue-ambition-et-l-cher-prise.mp3" length="3777408" type="audio/mpeg" />
@@ -175,8 +208,10 @@
     </item>
     <item>
       <title>Reprendre une direction : entre quête de sens, reconversion et pression sociale</title>
-      <description>Reprendre une direction : entre quête de sens, reconversion et pression sociale. Aujourd’hui, j’ai parlé avec mon professeur de mes aspirations, de mon admission à HEC Lausanne, et plus largement de ce besoin de redonner du sens à ma vie professionnelle. C’était une conversation très riche, parce qu’elle touchait à la fois au chômage, à la pression sociale, à la reconversion, à mes désillusions par rapport au secteur de la durabilité, et à la question plus profonde de ce qu’est, au fond, une vie</description>
-      <itunes:summary>Reprendre une direction : entre quête de sens, reconversion et pression sociale. Aujourd’hui, j’ai parlé avec mon professeur de mes aspirations, de mon admission à HEC Lausanne, et plus largement de ce besoin de redonner du sens à ma vie professionnelle. C’était une conversation très riche, parce qu’elle touchait à la fois au chômage, à la pression sociale, à la reconversion, à mes désillusions par rapport au secteur de la durabilité, et à la question plus profonde de ce qu’est, au fond, une vie</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Reprendre une direction : entre quête de sens, reconversion et pression sociale ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Reprendre une direction : entre quête de sens, reconversion et pression sociale ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">fcc34790-c526-4c64-8bbd-decea94ac00e</guid>
       <pubDate>Thu, 11 Jun 2026 20:42:36 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204236-reprendre-une-direction-entre-qu-te-de-sens-reconversio.mp3" length="3198816" type="audio/mpeg" />
@@ -185,8 +220,10 @@
     </item>
     <item>
       <title>Entre objectifs, spontanéité et façons très différentes de vivre</title>
-      <description>Entre objectifs, spontanéité et façons très différentes de vivre. Aujourd’hui, j’ai parlé avec mon professeur de ma motivation à passer les examens de français, mais aussi de deux amies très différentes de moi, ce qui m’a amenée à réfléchir à ma façon de vivre, à mes objectifs et à la place que je laisse à la spontanéité. Au début du cours, nous avons parlé de mon amie coréenne Bobae. Je lui ai recommandé la plateforme que j’utilise, et en particulier mon professeur. Elle a eu un cours d’essai c</description>
-      <itunes:summary>Entre objectifs, spontanéité et façons très différentes de vivre. Aujourd’hui, j’ai parlé avec mon professeur de ma motivation à passer les examens de français, mais aussi de deux amies très différentes de moi, ce qui m’a amenée à réfléchir à ma façon de vivre, à mes objectifs et à la place que je laisse à la spontanéité. Au début du cours, nous avons parlé de mon amie coréenne Bobae. Je lui ai recommandé la plateforme que j’utilise, et en particulier mon professeur. Elle a eu un cours d’essai c</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Entre objectifs, spontanéité et façons très différentes de vivre ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Entre objectifs, spontanéité et façons très différentes de vivre ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">85138242-1057-415d-aff3-9b7d4f9f7ab0</guid>
       <pubDate>Thu, 11 Jun 2026 20:42:16 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204216-entre-objectifs-spontan-it-et-fa-ons-tr-s-diff-rentes-d.mp3" length="3449808" type="audio/mpeg" />
@@ -195,8 +232,10 @@
     </item>
     <item>
       <title>Mariage, visa et sentiment de sécurité : entre choix personnel et réalités administratives</title>
-      <description>Mariage, visa et sentiment de sécurité : entre choix personnel et réalités administratives. Aujourd’hui, j’ai parlé avec mon professeur de ma situation de passeport, de visa et de résidence, mais aussi de tout ce que cela a changé dans ma vie personnelle. C’était une discussion très intéressante, parce qu’elle mêlait à la fois la politique, l’administration, l’amour, le mariage et le sentiment de sécurité. Au début du cours, mon professeur a remarqué que j’avais raccourci ma frange et elle m’a c</description>
-      <itunes:summary>Mariage, visa et sentiment de sécurité : entre choix personnel et réalités administratives. Aujourd’hui, j’ai parlé avec mon professeur de ma situation de passeport, de visa et de résidence, mais aussi de tout ce que cela a changé dans ma vie personnelle. C’était une discussion très intéressante, parce qu’elle mêlait à la fois la politique, l’administration, l’amour, le mariage et le sentiment de sécurité. Au début du cours, mon professeur a remarqué que j’avais raccourci ma frange et elle m’a c</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Mariage, visa et sentiment de sécurité : entre choix personnel et réalités administratives ». Une réflexion intime sur les liens familiaux, les attentes et ce que nous choisissons de transmettre.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Mariage, visa et sentiment de sécurité : entre choix personnel et réalités administratives ». Une réflexion intime sur les liens familiaux, les attentes et ce que nous choisissons de transmettre.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">7157716c-10d9-46bf-9a1c-f2918033fabd</guid>
       <pubDate>Thu, 11 Jun 2026 20:41:46 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204146-mariage-visa-et-sentiment-de-s-curit-entre-choix-person.mp3" length="3749184" type="audio/mpeg" />
@@ -205,8 +244,10 @@
     </item>
     <item>
       <title>Un moment charnière : entre vocation, études et blessures familiales</title>
-      <description>Un moment charnière : entre vocation, études et blessures familiales. Aujourd’hui, j’ai parlé avec mon professeur de son choix de carrière, et cette conversation m’a beaucoup fait réfléchir à mon propre parcours. Elle m’a dit qu’elle était à Paris, et quand je lui ai demandé pourquoi, elle m’a proposé de deviner. Je lui ai d’abord demandé si c’était lié à la culture, mais elle m’a répondu que non. À ma deuxième tentative, j’ai trouvé la bonne réponse : elle est en train de se former pour devenir</description>
-      <itunes:summary>Un moment charnière : entre vocation, études et blessures familiales. Aujourd’hui, j’ai parlé avec mon professeur de son choix de carrière, et cette conversation m’a beaucoup fait réfléchir à mon propre parcours. Elle m’a dit qu’elle était à Paris, et quand je lui ai demandé pourquoi, elle m’a proposé de deviner. Je lui ai d’abord demandé si c’était lié à la culture, mais elle m’a répondu que non. À ma deuxième tentative, j’ai trouvé la bonne réponse : elle est en train de se former pour devenir</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Un moment charnière : entre vocation, études et blessures familiales ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Un moment charnière : entre vocation, études et blessures familiales ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">87b690fc-15db-4133-8653-bcc6d5558b51</guid>
       <pubDate>Thu, 11 Jun 2026 20:41:30 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204130-un-moment-charni-re-entre-vocation-tudes-et-blessures-f.mp3" length="2551248" type="audio/mpeg" />
@@ -215,8 +256,10 @@
     </item>
     <item>
       <title>Le métier de psychiatre, la famille et la question d’avoir des enfants</title>
-      <description>Le métier de psychiatre, la famille et la question d’avoir des enfants. Aujourd’hui, j’ai parlé avec mon professeur après être rentrée d’un rendez-vous chez le médecin généraliste. J’étais allée dans un cabinet médical parce que, depuis quelque temps, je me sens fatiguée, même quand je dors beaucoup. Je ne sais pas encore si c’est lié au changement de saison ou à un problème physique, par exemple un niveau bas de fer ou un autre déséquilibre dans le sang. C’est pour cela que j’ai fait une prise </description>
-      <itunes:summary>Le métier de psychiatre, la famille et la question d’avoir des enfants. Aujourd’hui, j’ai parlé avec mon professeur après être rentrée d’un rendez-vous chez le médecin généraliste. J’étais allée dans un cabinet médical parce que, depuis quelque temps, je me sens fatiguée, même quand je dors beaucoup. Je ne sais pas encore si c’est lié au changement de saison ou à un problème physique, par exemple un niveau bas de fer ou un autre déséquilibre dans le sang. C’est pour cela que j’ai fait une prise </itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Le métier de psychiatre, la famille et la question d’avoir des enfants ». Une réflexion intime sur les liens familiaux, les attentes et ce que nous choisissons de transmettre.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Le métier de psychiatre, la famille et la question d’avoir des enfants ». Une réflexion intime sur les liens familiaux, les attentes et ce que nous choisissons de transmettre.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">9c9454ce-5588-4d0d-b37d-fa518118949f</guid>
       <pubDate>Thu, 11 Jun 2026 20:40:58 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204058-le-m-tier-de-psychiatre-la-famille-et-la-question-d-avo.mp3" length="4264992" type="audio/mpeg" />
@@ -225,8 +268,10 @@
     </item>
     <item>
       <title>Watches and Wonders : entre fascination, apparences et distance sociale</title>
-      <description>Watches and Wonders : entre fascination, apparences et distance sociale. Aujourd’hui, j’ai parlé avec mon professeur de deux sujets assez différents mais liés d’une certaine manière : le surf à Bali et mon expérience à Watches and Wonders à Genève. Au début du cours, nous avons parlé de sa vie à Bali. En ce moment, il se trouve dans le sud de l’île, où il fait du surf presque tous les matins. Il m’a expliqué que les vagues y sont plus douces et que c’est donc moins dangereux. Je lui ai demandé c</description>
-      <itunes:summary>Watches and Wonders : entre fascination, apparences et distance sociale. Aujourd’hui, j’ai parlé avec mon professeur de deux sujets assez différents mais liés d’une certaine manière : le surf à Bali et mon expérience à Watches and Wonders à Genève. Au début du cours, nous avons parlé de sa vie à Bali. En ce moment, il se trouve dans le sud de l’île, où il fait du surf presque tous les matins. Il m’a expliqué que les vagues y sont plus douces et que c’est donc moins dangereux. Je lui ai demandé c</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Watches and Wonders : entre fascination, apparences et distance sociale ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Watches and Wonders : entre fascination, apparences et distance sociale ». Une pensée personnelle, sincère et nuancée sur les choix et les émotions qui façonnent notre quotidien.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">27ada641-034e-411a-80aa-ce967e11eb42</guid>
       <pubDate>Thu, 11 Jun 2026 20:40:29 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204029-watches-and-wonders-entre-fascination-apparences-et-dis.mp3" length="3990528" type="audio/mpeg" />
@@ -235,8 +280,10 @@
     </item>
     <item>
       <title>Le luxe, l’argent et le revers de la médaille</title>
-      <description>Le luxe, l’argent et le revers de la médaille. Aujourd’hui, j’ai parlé avec mon professeur de l’industrie du luxe, parce que cette semaine, le salon Watches and Wonders a lieu à Genève. C’est probablement l’événement le plus important de l’année pour le secteur horloger, et la ville accueille en ce moment beaucoup de professionnels venus du monde entier. Comme mon mari travaille pour une marque de montres, il est extrêmement occupé pendant cette période. Il doit présenter les nouveaux modèles au</description>
-      <itunes:summary>Le luxe, l’argent et le revers de la médaille. Aujourd’hui, j’ai parlé avec mon professeur de l’industrie du luxe, parce que cette semaine, le salon Watches and Wonders a lieu à Genève. C’est probablement l’événement le plus important de l’année pour le secteur horloger, et la ville accueille en ce moment beaucoup de professionnels venus du monde entier. Comme mon mari travaille pour une marque de montres, il est extrêmement occupé pendant cette période. Il doit présenter les nouveaux modèles au</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Le luxe, l’argent et le revers de la médaille ». Une réflexion nuancée sur l'argent, les désirs et les valeurs qui orientent nos choix.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Le luxe, l’argent et le revers de la médaille ». Une réflexion nuancée sur l'argent, les désirs et les valeurs qui orientent nos choix.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">ca39d81f-c01c-4446-b38a-54a2f007b7c4</guid>
       <pubDate>Thu, 11 Jun 2026 20:40:13 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-204013-le-luxe-l-argent-et-le-revers-de-la-m-daille.mp3" length="2517264" type="audio/mpeg" />
@@ -245,8 +292,10 @@
     </item>
     <item>
       <title>Deux histoires de rupture et deux façons d’aimer</title>
-      <description>Deux histoires de rupture et deux façons d’aimer. Aujourd’hui, j’ai parlé avec mon professeur suisse, qui a trente ans et qui est actuellement en année sabbatique à Bali. Il me donne l’impression de vivre une vie très libre, très paisible. Depuis notre première rencontre en ligne, je le vois toujours dans un décor différent. La première fois, il était dans un chalet en bois à la montagne, entouré d’animaux sauvages et de singes. Ensuite, il s’est installé dans un hôtel près de la plage, où il fa</description>
-      <itunes:summary>Deux histoires de rupture et deux façons d’aimer. Aujourd’hui, j’ai parlé avec mon professeur suisse, qui a trente ans et qui est actuellement en année sabbatique à Bali. Il me donne l’impression de vivre une vie très libre, très paisible. Depuis notre première rencontre en ligne, je le vois toujours dans un décor différent. La première fois, il était dans un chalet en bois à la montagne, entouré d’animaux sauvages et de singes. Ensuite, il s’est installé dans un hôtel près de la plage, où il fa</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Deux histoires de rupture et deux façons d’aimer ». Une exploration sensible de nos relations, de leurs fragilités et de la manière dont elles nous transforment.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Deux histoires de rupture et deux façons d’aimer ». Une exploration sensible de nos relations, de leurs fragilités et de la manière dont elles nous transforment.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">f4bab17d-561d-4899-ac82-af4128faaa7b</guid>
       <pubDate>Thu, 11 Jun 2026 20:39:50 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-203950-deux-histoires-de-rupture-et-deux-fa-ons-d-aimer.mp3" length="3450384" type="audio/mpeg" />
@@ -255,8 +304,10 @@
     </item>
     <item>
       <title>Vivre entre deux mondes : famille, culture et décalage</title>
-      <description>Vivre entre deux mondes : famille, culture et décalage. Aujourd’hui, pendant mon cours de français, je suis arrivée avec une minute de retard. Ma professeure m’a demandé ce que je faisais, et je lui ai expliqué que je revenais d’un studio de Pilates. C’est à environ quinze minutes de chez moi, donc cela me prend un quart d’heure pour y aller. À partir de là, nous avons commencé à parler de notre intérêt pour le Pilates, puis, plus largement, de la vie entre l’Europe et l’Asie, du décalage cultur</description>
-      <itunes:summary>Vivre entre deux mondes : famille, culture et décalage. Aujourd’hui, pendant mon cours de français, je suis arrivée avec une minute de retard. Ma professeure m’a demandé ce que je faisais, et je lui ai expliqué que je revenais d’un studio de Pilates. C’est à environ quinze minutes de chez moi, donc cela me prend un quart d’heure pour y aller. À partir de là, nous avons commencé à parler de notre intérêt pour le Pilates, puis, plus largement, de la vie entre l’Europe et l’Asie, du décalage cultur</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Vivre entre deux mondes : famille, culture et décalage ». Une réflexion intime sur les liens familiaux, les attentes et ce que nous choisissons de transmettre.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Vivre entre deux mondes : famille, culture et décalage ». Une réflexion intime sur les liens familiaux, les attentes et ce que nous choisissons de transmettre.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">365618e9-f4b8-471e-bca1-90f9803cfd43</guid>
       <pubDate>Thu, 11 Jun 2026 20:39:28 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-203928-vivre-entre-deux-mondes-famille-culture-et-d-calage.mp3" length="3559104" type="audio/mpeg" />
@@ -265,8 +316,10 @@
     </item>
     <item>
       <title>Ma consommation d’alcool : entre culture, corps et choix de vie</title>
-      <description>Ma consommation d’alcool : entre culture, corps et choix de vie. Aujourd’hui, j’ai envie de parler de ma consommation d’alcool, parce que c’est un sujet qui me fait réfléchir à la fois à la culture, au mode de vie, au corps et à la santé. Quand je vivais en Chine, je n’avais presque jamais besoin de boire pour me faire plaisir. J’y ai grandi et j’y suis restée jusqu’à l’âge de vingt-deux ans. Là-bas, il existe beaucoup d’autres formes de divertissement. Avec mes amis, on pouvait facilement aller</description>
-      <itunes:summary>Ma consommation d’alcool : entre culture, corps et choix de vie. Aujourd’hui, j’ai envie de parler de ma consommation d’alcool, parce que c’est un sujet qui me fait réfléchir à la fois à la culture, au mode de vie, au corps et à la santé. Quand je vivais en Chine, je n’avais presque jamais besoin de boire pour me faire plaisir. J’y ai grandi et j’y suis restée jusqu’à l’âge de vingt-deux ans. Là-bas, il existe beaucoup d’autres formes de divertissement. Avec mes amis, on pouvait facilement aller</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Ma consommation d’alcool : entre culture, corps et choix de vie ». Une réflexion nuancée sur l'argent, les désirs et les valeurs qui orientent nos choix.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Ma consommation d’alcool : entre culture, corps et choix de vie ». Une réflexion nuancée sur l'argent, les désirs et les valeurs qui orientent nos choix.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">c9cb4a36-0c44-4546-b80f-063652f4b888</guid>
       <pubDate>Thu, 11 Jun 2026 20:39:11 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-203911-ma-consommation-d-alcool-entre-culture-corps-et-choix-d.mp3" length="2656656" type="audio/mpeg" />
@@ -275,8 +328,10 @@
     </item>
     <item>
       <title>L’anxiété de parler français malgré un bon niveau</title>
-      <description>L’anxiété de parler français malgré un bon niveau. Aujourd’hui, j’ai envie de parler de mon anxiété quand je parle français. C’est un sujet important pour moi, parce que même si j’ai obtenu un bon score en français, je n’arrive pas encore à l’utiliser avec fluidité dans la vie quotidienne. Il y a donc un décalage entre mon niveau sur le papier et ce que je ressens quand je dois vraiment m’exprimer. Je pense que cela est lié à ce qu’on appelle l’anxiété sociale, c’est-à-dire la peur de se retrouv</description>
-      <itunes:summary>L’anxiété de parler français malgré un bon niveau. Aujourd’hui, j’ai envie de parler de mon anxiété quand je parle français. C’est un sujet important pour moi, parce que même si j’ai obtenu un bon score en français, je n’arrive pas encore à l’utiliser avec fluidité dans la vie quotidienne. Il y a donc un décalage entre mon niveau sur le papier et ce que je ressens quand je dois vraiment m’exprimer. Je pense que cela est lié à ce qu’on appelle l’anxiété sociale, c’est-à-dire la peur de se retrouv</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « L’anxiété de parler français malgré un bon niveau ». Un épisode sur l'apprentissage, les doutes qui l'accompagnent et le plaisir de progresser à son propre rythme.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « L’anxiété de parler français malgré un bon niveau ». Un épisode sur l'apprentissage, les doutes qui l'accompagnent et le plaisir de progresser à son propre rythme.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">129b2b50-b537-4153-ad38-489dd07d2185</guid>
       <pubDate>Thu, 11 Jun 2026 20:38:58 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-203858-l-anxi-t-de-parler-fran-ais-malgr-un-bon-niveau.mp3" length="1961136" type="audio/mpeg" />
@@ -285,8 +340,10 @@
     </item>
     <item>
       <title>HEC Lausanne, l’entraide et les séquelles du Covid</title>
-      <description>HEC Lausanne, l’entraide et les séquelles du Covid. Aujourd’hui, j’ai parlé de mes vacances de Pâques, mais aussi d’un échange qui m’a beaucoup marquée. J’ai raconté que j’avais parlé avec une étudiante de HEC Lausanne, une femme de trente ans originaire de Bolivie, donc d’Amérique du Sud. Elle est en deuxième année du master auquel j’ai déjà envoyé ma candidature. Je l’ai contactée sur LinkedIn, parce que j’étais curieuse de mieux connaître la qualité de l’école. Comme elle fait aussi un stage </description>
-      <itunes:summary>HEC Lausanne, l’entraide et les séquelles du Covid. Aujourd’hui, j’ai parlé de mes vacances de Pâques, mais aussi d’un échange qui m’a beaucoup marquée. J’ai raconté que j’avais parlé avec une étudiante de HEC Lausanne, une femme de trente ans originaire de Bolivie, donc d’Amérique du Sud. Elle est en deuxième année du master auquel j’ai déjà envoyé ma candidature. Je l’ai contactée sur LinkedIn, parce que j’étais curieuse de mieux connaître la qualité de l’école. Comme elle fait aussi un stage </itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « HEC Lausanne, l’entraide et les séquelles du Covid ». Un regard personnel sur le travail, les ambitions et la place que l'on souhaite donner à sa vie professionnelle.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « HEC Lausanne, l’entraide et les séquelles du Covid ». Un regard personnel sur le travail, les ambitions et la place que l'on souhaite donner à sa vie professionnelle.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">80cba613-5c67-4e7a-88fa-fe11ad3b8142</guid>
       <pubDate>Thu, 11 Jun 2026 20:38:42 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-203842-hec-lausanne-l-entraide-et-les-s-quelles-du-covid.mp3" length="2503008" type="audio/mpeg" />
@@ -295,8 +352,10 @@
     </item>
     <item>
       <title>La famille chinoise, les inégalités et les blessures émotionnelles</title>
-      <description>La famille chinoise, les inégalités et les blessures émotionnelles. Aujourd’hui, j’ai parlé de ce qui m’est arrivé récemment dans ma famille. J’ai eu une expérience très négative avec mon frère, parce qu’il m’a reproché d’être égoïste. Il a appris que je n’appelais ma mère qu’une fois par mois, et il s’est senti responsable de me corriger ou de me faire la leçon. Je me suis sentie très vexée. Je lui ai répondu qu’il avait toujours été l’enfant valorisé par nos parents, donc que notre rapport à e</description>
-      <itunes:summary>La famille chinoise, les inégalités et les blessures émotionnelles. Aujourd’hui, j’ai parlé de ce qui m’est arrivé récemment dans ma famille. J’ai eu une expérience très négative avec mon frère, parce qu’il m’a reproché d’être égoïste. Il a appris que je n’appelais ma mère qu’une fois par mois, et il s’est senti responsable de me corriger ou de me faire la leçon. Je me suis sentie très vexée. Je lui ai répondu qu’il avait toujours été l’enfant valorisé par nos parents, donc que notre rapport à e</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « La famille chinoise, les inégalités et les blessures émotionnelles ». Une réflexion intime sur les liens familiaux, les attentes et ce que nous choisissons de transmettre.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « La famille chinoise, les inégalités et les blessures émotionnelles ». Une réflexion intime sur les liens familiaux, les attentes et ce que nous choisissons de transmettre.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">c5cc78d8-c656-4199-af56-5bac5897fe49</guid>
       <pubDate>Thu, 11 Jun 2026 20:38:30 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-203830-la-famille-chinoise-les-in-galit-s-et-les-blessures-mot.mp3" length="1938816" type="audio/mpeg" />
@@ -305,8 +364,10 @@
     </item>
     <item>
       <title>Deux visions de la famille : entre solidarité et autonomie</title>
-      <description>Deux visions de la famille : entre solidarité et autonomie. Aujourd’hui, j’ai envie de parler des différences culturelles entre les familles asiatiques et européennes. Bien sûr, il ne faut pas trop généraliser, parce que chaque famille est différente, mais je pense qu’on peut quand même observer certaines tendances. Dans beaucoup de familles asiatiques, la famille occupe une place très centrale. On pense souvent en termes de responsabilité envers les parents, d’harmonie familiale et de devoir. L</description>
-      <itunes:summary>Deux visions de la famille : entre solidarité et autonomie. Aujourd’hui, j’ai envie de parler des différences culturelles entre les familles asiatiques et européennes. Bien sûr, il ne faut pas trop généraliser, parce que chaque famille est différente, mais je pense qu’on peut quand même observer certaines tendances. Dans beaucoup de familles asiatiques, la famille occupe une place très centrale. On pense souvent en termes de responsabilité envers les parents, d’harmonie familiale et de devoir. L</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Deux visions de la famille : entre solidarité et autonomie ». Une réflexion intime sur les liens familiaux, les attentes et ce que nous choisissons de transmettre.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Deux visions de la famille : entre solidarité et autonomie ». Une réflexion intime sur les liens familiaux, les attentes et ce que nous choisissons de transmettre.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">7bd5e077-3b0e-420d-9e48-740e32d3dc52</guid>
       <pubDate>Thu, 11 Jun 2026 20:38:13 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-203813-deux-visions-de-la-famille-entre-solidarit-et-autonomie.mp3" length="1527984" type="audio/mpeg" />
@@ -315,8 +376,10 @@
     </item>
     <item>
       <title>Entre racisme, décalage culturel et quête d’appartenance</title>
-      <description>Entre racisme, décalage culturel et quête d’appartenance. Aujourd’hui, on a parlé du racisme, des stéréotypes qu’on a vécus, et plus largement de ce que cela signifie d’être une femme asiatique en Europe. Personnellement, je parle avec mon thérapeute à distance, parce qu’il comprend bien ma situation entre deux cultures. Cela m’aide beaucoup. En plus, la plupart de mes amis sont aussi des immigrés, et eux aussi vivent entre plusieurs mondes. On est un peu tous dans le même bateau, et j’ai la cha</description>
-      <itunes:summary>Entre racisme, décalage culturel et quête d’appartenance. Aujourd’hui, on a parlé du racisme, des stéréotypes qu’on a vécus, et plus largement de ce que cela signifie d’être une femme asiatique en Europe. Personnellement, je parle avec mon thérapeute à distance, parce qu’il comprend bien ma situation entre deux cultures. Cela m’aide beaucoup. En plus, la plupart de mes amis sont aussi des immigrés, et eux aussi vivent entre plusieurs mondes. On est un peu tous dans le même bateau, et j’ai la cha</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Entre racisme, décalage culturel et quête d’appartenance ». Un regard entre cultures sur l'identité, l'appartenance et notre façon de rencontrer le monde.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Entre racisme, décalage culturel et quête d’appartenance ». Un regard entre cultures sur l'identité, l'appartenance et notre façon de rencontrer le monde.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">61d1c57f-daec-4713-9286-e69113723fe6</guid>
       <pubDate>Thu, 11 Jun 2026 20:38:00 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-203800-entre-racisme-d-calage-culturel-et-qu-te-d-appartenance.mp3" length="1879632" type="audio/mpeg" />
@@ -325,8 +388,10 @@
     </item>
     <item>
       <title>L’intelligence artificielle et son impact sur notre vie</title>
-      <description>L’intelligence artificielle et son impact sur notre vie. J’ai parlé avec mon prof d’un épisode de podcast que j’ai écouté récemment sur l’intelligence artificielle et son impact sur nos vies. Aujourd’hui, les technologies d’IA se développent très rapidement et elles affectent déjà de nombreux secteurs. Par exemple, quand on s’est rencontrées pour la première fois, ma professeure m’a dit qu’elle était traductrice. Je me suis tout de suite demandé comment l’IA influençait son travail. Elle m’a exp</description>
-      <itunes:summary>L’intelligence artificielle et son impact sur notre vie. J’ai parlé avec mon prof d’un épisode de podcast que j’ai écouté récemment sur l’intelligence artificielle et son impact sur nos vies. Aujourd’hui, les technologies d’IA se développent très rapidement et elles affectent déjà de nombreux secteurs. Par exemple, quand on s’est rencontrées pour la première fois, ma professeure m’a dit qu’elle était traductrice. Je me suis tout de suite demandé comment l’IA influençait son travail. Elle m’a exp</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « L’intelligence artificielle et son impact sur notre vie ». Une réflexion accessible sur la technologie, ses promesses et son influence grandissante dans notre quotidien.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « L’intelligence artificielle et son impact sur notre vie ». Une réflexion accessible sur la technologie, ses promesses et son influence grandissante dans notre quotidien.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">6dc0efd4-9d50-4128-8f01-612d754e6921</guid>
       <pubDate>Thu, 11 Jun 2026 20:37:43 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-203743-l-intelligence-artificielle-et-son-impact-sur-notre-vie.mp3" length="1432656" type="audio/mpeg" />
@@ -335,8 +400,10 @@
     </item>
     <item>
       <title>Venise, entre beauté, contradictions et humanité</title>
-      <description>Venise, entre beauté, contradictions et humanité. Cette semaine, mon mari et moi sommes partis à Venise, cette célèbre ville construite sur l’eau que je connaissais autrefois à travers mes manuels scolaires. Nous y passons cinq jours et quatre nuits, dans le cadre d’un voyage un peu improvisé, rendu possible grâce aux miles accumulés auprès de la compagnie aérienne de mon mari. Ce séjour a également une dimension particulière, car notre amie Diana, originaire de Venise, est rentrée chez elle pou</description>
-      <itunes:summary>Venise, entre beauté, contradictions et humanité. Cette semaine, mon mari et moi sommes partis à Venise, cette célèbre ville construite sur l’eau que je connaissais autrefois à travers mes manuels scolaires. Nous y passons cinq jours et quatre nuits, dans le cadre d’un voyage un peu improvisé, rendu possible grâce aux miles accumulés auprès de la compagnie aérienne de mon mari. Ce séjour a également une dimension particulière, car notre amie Diana, originaire de Venise, est rentrée chez elle pou</itunes:summary>
+      <description>Dans cet épisode, Vicky partage ses réflexions autour de « Venise, entre beauté, contradictions et humanité ». Une parenthèse de voyage faite d'observations, de souvenirs et de découvertes personnelles.</description>
+      <itunes:summary>Dans cet épisode, Vicky partage ses réflexions autour de « Venise, entre beauté, contradictions et humanité ». Une parenthèse de voyage faite d'observations, de souvenirs et de découvertes personnelles.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
       <guid isPermaLink="false">21e73659-1cb9-40db-b982-3e27bc14d467</guid>
       <pubDate>Thu, 11 Jun 2026 20:33:26 +0000</pubDate>
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-2033-venise-entre-beaut-contradictions-et-humanit.mp3" length="2221632" type="audio/mpeg" />
