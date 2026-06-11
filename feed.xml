@@ -13,5 +13,15 @@
     <itunes:image href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/cover.png" />
     <image><url>https://wenminli961201-cell.github.io/vickys-french-journal-podcast/cover.png</url><title>Vicky’s French Journal</title><link>https://wenminli961201-cell.github.io/vickys-french-journal-podcast/feed.xml</link></image>
 
+    <item>
+      <title>Venise, entre beauté, contradictions et humanité</title>
+      <description>Venise, entre beauté, contradictions et humanité. Cette semaine, mon mari et moi sommes partis à Venise, cette célèbre ville construite sur l’eau que je connaissais autrefois à travers mes manuels scolaires. Nous y passons cinq jours et quatre nuits, dans le cadre d’un voyage un peu improvisé, rendu possible grâce aux miles accumulés auprès de la compagnie aérienne de mon mari. Ce séjour a également une dimension particulière, car notre amie Diana, originaire de Venise, est rentrée chez elle pou</description>
+      <itunes:summary>Venise, entre beauté, contradictions et humanité. Cette semaine, mon mari et moi sommes partis à Venise, cette célèbre ville construite sur l’eau que je connaissais autrefois à travers mes manuels scolaires. Nous y passons cinq jours et quatre nuits, dans le cadre d’un voyage un peu improvisé, rendu possible grâce aux miles accumulés auprès de la compagnie aérienne de mon mari. Ce séjour a également une dimension particulière, car notre amie Diana, originaire de Venise, est rentrée chez elle pou</itunes:summary>
+      <guid isPermaLink="false">21e73659-1cb9-40db-b982-3e27bc14d467</guid>
+      <pubDate>Thu, 11 Jun 2026 20:33:26 +0000</pubDate>
+      <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/2026-06-11-2033-venise-entre-beaut-contradictions-et-humanit.mp3" length="2221632" type="audio/mpeg" />
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
   </channel>
 </rss>
