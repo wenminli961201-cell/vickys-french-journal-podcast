@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vicky’s French Journal</title>
+    <link>https://wenminli961201-cell.github.io/vickys-french-journal-podcast/feed.xml</link>
+    <atom:link href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <language>fr-FR</language>
+    <description>Les conversations, les réflexions et la voix de Vicky, partagées en privé.</description>
+    <itunes:author>Vicky</itunes:author>
+    <itunes:summary>Les conversations, les réflexions et la voix de Vicky, partagées en privé.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:image href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/cover.png" />
+    <image><url>https://wenminli961201-cell.github.io/vickys-french-journal-podcast/cover.png</url><title>Vicky’s French Journal</title><link>https://wenminli961201-cell.github.io/vickys-french-journal-podcast/feed.xml</link></image>
+
+  </channel>
+</rss>
