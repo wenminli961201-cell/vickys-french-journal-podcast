@@ -440,5 +440,16 @@
     "episode": 34,
     "voice": "fr-FR-VivienneMultilingualNeural",
     "playbackRate": 0.85
+  },
+  {
+    "guid": "d847edf2-4858-4316-bbd0-59e8e522609d",
+    "title": "Ce que mes plantes m’ont appris sur moi-même, à l’ère de l’intelligence artificielle",
+    "description": "À partir d'une expérience personnelle, Vicky pose un regard sincère sur les relations, les choix et les contradictions qui façonnent notre quotidien.",
+    "creator": "Gut Vogel",
+    "filename": "2026-06-15-113940-ce-que-mes-plantes-m-ont-appris-sur-moi-m-me-l-re-de-l-.mp3",
+    "length": 2471904,
+    "published": "2026-06-15T11:39:40.451362+00:00",
+    "pubDate": "Mon, 15 Jun 2026 11:39:40 +0000",
+    "episode": 35
   }
 ]
