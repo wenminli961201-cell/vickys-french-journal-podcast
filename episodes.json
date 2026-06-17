@@ -1,18 +1,5 @@
 [
   {
-    "guid": "21e73659-1cb9-40db-b982-3e27bc14d467",
-    "title": "Venise avec Diana : beauté nocturne, mariage de Bezos et jeunesse sans perspectives",
-    "description": "À Venise pour retrouver une amie qui prépare son mariage, Vicky découvre une ville presque irréelle, entre canaux, palais et nuits scintillantes. Derrière la beauté surgissent aussi le tourisme de luxe, les tensions locales et des rencontres qui révèlent toute l'humanité du lieu.",
-    "filename": "episode-33-venise-entre-beaut-contradictions-et-humanit-vivienne-085.mp3",
-    "length": 1941840,
-    "published": "2026-06-11T20:33:26.867761+00:00",
-    "pubDate": "Thu, 11 Jun 2026 20:33:26 +0000",
-    "creator": "Gut Vogel",
-    "episode": 33,
-    "voice": "fr-FR-VivienneMultilingualNeural",
-    "playbackRate": 0.85
-  },
-  {
     "guid": "6dc0efd4-9d50-4128-8f01-612d754e6921",
     "title": "Quand l’IA menace les traducteurs et m’oblige à repenser ma propre valeur",
     "description": "À partir des expériences d'une traductrice et d'un gestionnaire de patrimoine, Vicky observe comment l'intelligence artificielle transforme déjà le travail. Elle s'interroge sur les métiers menacés, les nouvelles possibilités et la place que nous souhaitons encore réserver à l'humain.",
@@ -429,6 +416,19 @@
     "playbackRate": 0.85
   },
   {
+    "guid": "21e73659-1cb9-40db-b982-3e27bc14d467",
+    "title": "Venise avec Diana : beauté nocturne, mariage de Bezos et jeunesse sans perspectives",
+    "description": "À Venise pour retrouver une amie qui prépare son mariage, Vicky découvre une ville presque irréelle, entre canaux, palais et nuits scintillantes. Derrière la beauté surgissent aussi le tourisme de luxe, les tensions locales et des rencontres qui révèlent toute l'humanité du lieu.",
+    "filename": "episode-33-venise-entre-beaut-contradictions-et-humanit-vivienne-085.mp3",
+    "length": 1941840,
+    "published": "2026-06-11T20:33:26.867761+00:00",
+    "pubDate": "Thu, 11 Jun 2026 20:33:26 +0000",
+    "creator": "Gut Vogel",
+    "episode": 33,
+    "voice": "fr-FR-VivienneMultilingualNeural",
+    "playbackRate": 0.85
+  },
+  {
     "guid": "2b746a26-29c1-4b7c-b320-bbda3f597657",
     "title": "Genève barricadée avant le G7 : le regard contradictoire d’une immigrée sur l’ordre européen",
     "description": "De retour à Genève à l'approche d'un sommet international, Vicky découvre une ville barricadée et placée sous haute surveillance. Entre violences redoutées, immigration et besoin de préserver l'équilibre local, elle examine avec franchise les contradictions de son regard d'immigrée sur l'Europe.",
@@ -451,17 +451,6 @@
     "published": "2026-06-15T11:39:40.451362+00:00",
     "pubDate": "Mon, 15 Jun 2026 11:39:40 +0000",
     "episode": 35
-  },
-  {
-    "guid": "5117d11d-14ad-424f-9fc2-3c5bcb385393",
-    "title": "Comment la Suisse hésite face à l’immigration",
-    "description": "À partir d'une expérience personnelle, Vicky pose un regard sincère sur les relations, les choix et les contradictions qui façonnent notre quotidien.",
-    "creator": "Gut Vogel",
-    "filename": "2026-06-17-112637-comment-la-suisse-h-site-face-l-immigration.mp3",
-    "length": 1342080,
-    "published": "2026-06-17T11:26:37.164019+00:00",
-    "pubDate": "Wed, 17 Jun 2026 11:26:37 +0000",
-    "episode": 37
   },
   {
     "guid": "5ce533fb-77ec-4cee-bd1e-cda998a04142",
