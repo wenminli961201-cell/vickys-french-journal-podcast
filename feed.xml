@@ -54,6 +54,19 @@
       <itunes:episodeType>full</itunes:episodeType>
     </item>
     <item>
+      <title>33. Venise avec Diana : beauté nocturne, mariage de Bezos et jeunesse sans perspectives</title>
+      <description>À Venise pour retrouver une amie qui prépare son mariage, Vicky découvre une ville presque irréelle, entre canaux, palais et nuits scintillantes. Derrière la beauté surgissent aussi le tourisme de luxe, les tensions locales et des rencontres qui révèlent toute l'humanité du lieu.</description>
+      <itunes:summary>À Venise pour retrouver une amie qui prépare son mariage, Vicky découvre une ville presque irréelle, entre canaux, palais et nuits scintillantes. Derrière la beauté surgissent aussi le tourisme de luxe, les tensions locales et des rencontres qui révèlent toute l'humanité du lieu.</itunes:summary>
+      <itunes:author>Gut Vogel</itunes:author>
+      <dc:creator>Gut Vogel</dc:creator>
+      <guid isPermaLink="false">21e73659-1cb9-40db-b982-3e27bc14d467</guid>
+      <pubDate>Thu, 11 Jun 2026 20:33:26 +0000</pubDate>
+      <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-33-venise-entre-beaut-contradictions-et-humanit-vivienne-085.mp3" length="1941840" type="audio/mpeg" />
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>33</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>32. Seize robes, un album photo et une amitié déséquilibrée avec Allaysa</title>
       <description>La préparation d'un album de mariage révèle peu à peu un déséquilibre dans une amitié : Vicky donne du temps, de l'argent et de l'attention, puis se sent tenue pour acquise. Elle cherche comment rester empathique sans sacrifier ses limites ni son estime d'elle-même.</description>
       <itunes:summary>La préparation d'un album de mariage révèle peu à peu un déséquilibre dans une amitié : Vicky donne du temps, de l'argent et de l'attention, puis se sent tenue pour acquise. Elle cherche comment rester empathique sans sacrifier ses limites ni son estime d'elle-même.</itunes:summary>
@@ -467,19 +480,6 @@
       <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-01-l-intelligence-artificielle-et-son-impact-sur-notre-vie-vivienne-085.mp3" length="1238544" type="audio/mpeg" />
       <itunes:explicit>false</itunes:explicit>
       <itunes:episode>1</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
-    <item>
-      <title>33. Venise avec Diana : beauté nocturne, mariage de Bezos et jeunesse sans perspectives</title>
-      <description>À Venise pour retrouver une amie qui prépare son mariage, Vicky découvre une ville presque irréelle, entre canaux, palais et nuits scintillantes. Derrière la beauté surgissent aussi le tourisme de luxe, les tensions locales et des rencontres qui révèlent toute l'humanité du lieu.</description>
-      <itunes:summary>À Venise pour retrouver une amie qui prépare son mariage, Vicky découvre une ville presque irréelle, entre canaux, palais et nuits scintillantes. Derrière la beauté surgissent aussi le tourisme de luxe, les tensions locales et des rencontres qui révèlent toute l'humanité du lieu.</itunes:summary>
-      <itunes:author>Gut Vogel</itunes:author>
-      <dc:creator>Gut Vogel</dc:creator>
-      <guid isPermaLink="false">21e73659-1cb9-40db-b982-3e27bc14d467</guid>
-      <pubDate>Thu, 11 Jun 2026 20:33:26 +0000</pubDate>
-      <enclosure url="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-33-venise-entre-beaut-contradictions-et-humanit-vivienne-085.mp3" length="1941840" type="audio/mpeg" />
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episode>33</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
