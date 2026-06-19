@@ -1,4 +1,544 @@
-<!doctype html><meta charset="utf-8"><title>Vicky’s French Journal</title>
-<style>body{max-width:680px;margin:70px auto;padding:0 24px;background:#071b30;color:#f7e3bd;font:18px Georgia,serif;line-height:1.6}img{width:260px;border-radius:18px}a{color:#ff8d6b}</style>
-<img src="cover-2026-06-15.jpg" alt="Vicky’s French Journal"><h1>Vicky’s French Journal</h1>
-<p>Les conversations, les réflexions et la voix de Vicky.</p><p><a href="feed.xml">Podcast RSS feed</a></p>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vicky’s French Journal Podcast</title>
+  <style>
+    :root { --cream:#fff8e8; --ink:#17232d; --muted:#61707a; --green:#8db73f; --yellow:#f8dc68; --lav:#afa5ff; --line:#eadfca; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:linear-gradient(135deg,#fff9df,#f9edbc 45%,#f6f1df); color:var(--ink); font-family:Arial,"Microsoft YaHei",sans-serif; }
+    .shell { max-width:1120px; margin:0 auto; padding:34px 22px 70px; }
+    header { display:grid; grid-template-columns:220px 1fr; gap:30px; align-items:center; padding:24px; border:1px solid rgba(23,35,45,.12); border-radius:28px; background:rgba(255,255,255,.62); box-shadow:0 18px 60px rgba(60,48,24,.12); }
+    .cover { width:100%; border-radius:22px; box-shadow:0 14px 32px rgba(50,40,12,.22); }
+    h1 { margin:0 0 10px; font-size:clamp(36px,6vw,72px); line-height:.95; letter-spacing:-.04em; }
+    .tagline { max-width:680px; margin:0 0 18px; color:var(--muted); font-size:18px; line-height:1.65; }
+    .controls { display:flex; flex-wrap:wrap; gap:10px; margin:22px 0 0; }
+    button,.pill { border:1px solid rgba(23,35,45,.14); border-radius:999px; padding:10px 15px; background:#fff; color:var(--ink); font-weight:700; text-decoration:none; cursor:pointer; }
+    button.active { background:var(--ink); color:#fff; }
+    .primary { background:var(--green); color:#fff; border-color:transparent; }
+    .rss { background:var(--lav); color:#fff; border-color:transparent; }
+    .tools { display:grid; grid-template-columns:1fr auto; gap:14px; align-items:center; margin:26px 0 18px; }
+    input[type=search] { width:100%; border:1px solid var(--line); border-radius:16px; padding:14px 16px; font:inherit; background:rgba(255,255,255,.75); }
+    .count { color:var(--muted); font-weight:700; white-space:nowrap; }
+    .episode-list { display:grid; gap:14px; }
+    .episode { display:grid; grid-template-columns:64px 1fr; gap:16px; padding:18px; border:1px solid var(--line); border-radius:22px; background:rgba(255,255,255,.78); box-shadow:0 10px 28px rgba(60,48,24,.07); }
+    .episode-number { display:grid; place-items:center; width:58px; height:58px; border-radius:50%; background:var(--yellow); font-size:20px; font-weight:900; }
+    h3 { margin:0 0 8px; font-size:21px; line-height:1.28; }
+    .episode p { margin:0 0 12px; color:#3d4d57; line-height:1.58; }
+    audio { width:100%; margin:2px 0 10px; }
+    .episode-links { display:flex; flex-wrap:wrap; gap:8px; }
+    .small-link { display:inline-flex; align-items:center; border-radius:999px; padding:7px 11px; background:#f2ead5; color:#233746; text-decoration:none; font-size:13px; font-weight:700; }
+    footer { margin-top:34px; color:var(--muted); text-align:center; }
+    .copied { display:none; color:#47782f; font-weight:700; }
+    .copied.visible { display:inline; }
+    @media (max-width:760px) { header { grid-template-columns:1fr; } .cover { max-width:260px; } .tools { grid-template-columns:1fr; } .episode { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <img class="cover" src="cover-2026-06-15.jpg" alt="Vicky’s French Journal cover">
+      <div>
+        <div class="controls" aria-label="Language">
+          <button type="button" data-lang="zh" class="active">中文</button>
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="fr">Français</button>
+        </div>
+        <h1>Vicky’s French Journal</h1>
+        <p class="tagline" data-i18n="tagline">一个私人法语播客总览：收听每一集、下载法语转写 PDF，也可以复制 RSS 地址在 Apple Podcasts 中订阅。</p>
+        <div class="controls">
+          <a class="pill primary" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/feed.xml" target="_blank" rel="noreferrer" data-i18n="rssFeed">打开 RSS Feed</a>
+          <button class="pill rss" type="button" id="copyFeed" data-feed="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/feed.xml" data-i18n="copyFeed">复制 Apple Podcasts 订阅地址</button>
+          <span id="copied" class="copied" data-i18n="copied">已复制</span>
+        </div>
+      </div>
+    </header>
+    <section class="tools">
+      <input id="search" type="search" data-i18n-placeholder="search" placeholder="搜索标题或简介">
+      <div class="count"><span id="visibleCount">37</span> / 37 <span data-i18n="episodes">集</span></div>
+    </section>
+    <main class="episode-list" id="episodeList">
+      
+        <article class="episode" data-title="grandir, s’éloigner, résister : quand l’amour des proches devient une forme de contrainte">
+          <div class="episode-number">37</div>
+          <div class="episode-body">
+            <h3>37. Grandir, s’éloigner, résister : quand l’amour des proches devient une forme de contrainte</h3>
+            <p>À partir d'une expérience personnelle, Vicky pose un regard sincère sur les relations, les choix et les contradictions qui façonnent notre quotidien.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-37-grandir-s-loigner-r-sister-quand-l-amour-des-proches-de-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-37-grandir-s-loigner-r-sister-quand-l-amour-des-proches-de-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-37-grandir-s-loigner-r-sister-quand-l-amour-des-proches-de.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="naturalisation, quotas et choix de vie : pourquoi l’immigration en suisse reste un débat sans réponse simple">
+          <div class="episode-number">36</div>
+          <div class="episode-body">
+            <h3>36. Naturalisation, quotas et choix de vie : pourquoi l’immigration en Suisse reste un débat sans réponse simple</h3>
+            <p>À partir d'une expérience personnelle, Vicky pose un regard sincère sur les relations, les choix et les contradictions qui façonnent notre quotidien.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-36-naturalisation-quotas-et-choix-de-vie-pourquoi-l-immigr-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-36-naturalisation-quotas-et-choix-de-vie-pourquoi-l-immigr-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-36-naturalisation-quotas-et-choix-de-vie-pourquoi-l-immigr.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="ce que mes plantes m’ont appris sur moi-même, à l’ère de l’intelligence artificielle">
+          <div class="episode-number">35</div>
+          <div class="episode-body">
+            <h3>35. Ce que mes plantes m’ont appris sur moi-même, à l’ère de l’intelligence artificielle</h3>
+            <p>À partir d'une expérience personnelle, Vicky pose un regard sincère sur les relations, les choix et les contradictions qui façonnent notre quotidien.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-35-ce-que-mes-plantes-m-ont-appris-sur-moi-m-me-l-re-de-l--2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-35-ce-que-mes-plantes-m-ont-appris-sur-moi-m-me-l-re-de-l--2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-35-ce-que-mes-plantes-m-ont-appris-sur-moi-m-me-l-re-de-l-.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="genève barricadée avant le g7 : le regard contradictoire d’une immigrée sur l’ordre européen">
+          <div class="episode-number">34</div>
+          <div class="episode-body">
+            <h3>34. Genève barricadée avant le G7 : le regard contradictoire d’une immigrée sur l’ordre européen</h3>
+            <p>De retour à Genève à l'approche d'un sommet international, Vicky découvre une ville barricadée et placée sous haute surveillance. Entre violences redoutées, immigration et besoin de préserver l'équilibre local, elle examine avec franchise les contradictions de son regard d'immigrée sur l'Europe.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-34-gen-ve-barricad-e-avant-le-g7-le-regard-contradictoire--2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-34-gen-ve-barricad-e-avant-le-g7-le-regard-contradictoire--2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-34-gen-ve-barricad-e-avant-le-g7-le-regard-contradictoire-.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="venise avec diana : beauté nocturne, mariage de bezos et jeunesse sans perspectives">
+          <div class="episode-number">33</div>
+          <div class="episode-body">
+            <h3>33. Venise avec Diana : beauté nocturne, mariage de Bezos et jeunesse sans perspectives</h3>
+            <p>À Venise pour retrouver une amie qui prépare son mariage, Vicky découvre une ville presque irréelle, entre canaux, palais et nuits scintillantes. Derrière la beauté surgissent aussi le tourisme de luxe, les tensions locales et des rencontres qui révèlent toute l'humanité du lieu.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-33-venise-avec-diana-beaut-nocturne-mariage-de-bezos-et-je-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-33-venise-avec-diana-beaut-nocturne-mariage-de-bezos-et-je-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-33-venise-avec-diana-beaut-nocturne-mariage-de-bezos-et-je.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="seize robes, un album photo et une amitié déséquilibrée avec allaysa">
+          <div class="episode-number">32</div>
+          <div class="episode-body">
+            <h3>32. Seize robes, un album photo et une amitié déséquilibrée avec Allaysa</h3>
+            <p>La préparation d'un album de mariage révèle peu à peu un déséquilibre dans une amitié : Vicky donne du temps, de l'argent et de l'attention, puis se sent tenue pour acquise. Elle cherche comment rester empathique sans sacrifier ses limites ni son estime d'elle-même.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-32-seize-robes-un-album-photo-et-une-amiti-d-s-quilibr-e-a-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-32-seize-robes-un-album-photo-et-une-amiti-d-s-quilibr-e-a-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-32-seize-robes-un-album-photo-et-une-amiti-d-s-quilibr-e-a.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="quand un professeur ressemble à un thérapeute : apprendre grâce à la confiance">
+          <div class="episode-number">31</div>
+          <div class="episode-body">
+            <h3>31. Quand un professeur ressemble à un thérapeute : apprendre grâce à la confiance</h3>
+            <p>En découvrant l'importance du lien entre thérapeute et patient, Vicky pense à la relation tout aussi particulière qui unit un professeur et son élève. Apprendre ne consiste plus seulement à recevoir des connaissances, mais à créer un espace de confiance où chacun peut évoluer.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-31-quand-un-professeur-ressemble-un-th-rapeute-apprendre-g-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-31-quand-un-professeur-ressemble-un-th-rapeute-apprendre-g-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-31-quand-un-professeur-ressemble-un-th-rapeute-apprendre-g.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="les chats de bali : liberté, sécurité et ce que l’apprentissage exige de nous">
+          <div class="episode-number">30</div>
+          <div class="episode-body">
+            <h3>30. Les chats de Bali : liberté, sécurité et ce que l’apprentissage exige de nous</h3>
+            <p>Deux chats recueillis à Bali inspirent une question sans réponse simple : vaut-il mieux la liberté dans l'incertitude ou la sécurité dans un espace limité ? Vicky relie ce dilemme à l'apprentissage et à ces formes de protection qui peuvent parfois aider, parfois enfermer.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-30-les-chats-de-bali-libert-s-curit-et-ce-que-l-apprentiss-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-30-les-chats-de-bali-libert-s-curit-et-ce-que-l-apprentiss-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-30-les-chats-de-bali-libert-s-curit-et-ce-que-l-apprentiss.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="mon conseiller au chômage parlait de trump au lieu de m’aider à trouver un emploi">
+          <div class="episode-number">29</div>
+          <div class="episode-body">
+            <h3>29. Mon conseiller au chômage parlait de Trump au lieu de m’aider à trouver un emploi</h3>
+            <p>Un appel de son conseiller au chômage conduit Vicky à raconter un accompagnement décevant, fait de rendez-vous peu utiles, d'opinions politiques et de stéréotypes sur la Chine. Elle explique comment elle a appris à prendre de la distance sans renoncer à son propre projet professionnel.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-29-mon-conseiller-au-ch-mage-parlait-de-trump-au-lieu-de-m-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-29-mon-conseiller-au-ch-mage-parlait-de-trump-au-lieu-de-m-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-29-mon-conseiller-au-ch-mage-parlait-de-trump-au-lieu-de-m.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="quitter l’horlogerie pour surfer à bali : le courage de décevoir pour vivre libre">
+          <div class="episode-number">28</div>
+          <div class="episode-body">
+            <h3>28. Quitter l’horlogerie pour surfer à Bali : le courage de décevoir pour vivre libre</h3>
+            <p>Le parcours d'un ancien salarié de l'horlogerie, parti enseigner et surfer à Bali, donne à Vicky une image concrète de la liberté. Elle réfléchit au courage de quitter un travail devenu vide de sens et d'avancer malgré les conseils, les inquiétudes et le jugement de l'entourage.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-28-quitter-l-horlogerie-pour-surfer-bali-le-courage-de-d-c-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-28-quitter-l-horlogerie-pour-surfer-bali-le-courage-de-d-c-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-28-quitter-l-horlogerie-pour-surfer-bali-le-courage-de-d-c.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="canicule, husky et mutations professionnelles : jusqu’où adapter sa vie aux ambitions du couple ?">
+          <div class="episode-number">27</div>
+          <div class="episode-body">
+            <h3>27. Canicule, husky et mutations professionnelles : jusqu’où adapter sa vie aux ambitions du couple ?</h3>
+            <p>Une vague de chaleur, un chien qu'il faut protéger et un mariage à organiser font apparaître les contraintes cachées derrière nos choix. En observant les carrières de leurs maris et les déménagements possibles, Vicky et son amie cherchent la juste place de l'ambition dans une vie à deux.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-27-canicule-husky-et-mutations-professionnelles-jusqu-o-ad-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-27-canicule-husky-et-mutations-professionnelles-jusqu-o-ad-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-27-canicule-husky-et-mutations-professionnelles-jusqu-o-ad.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="chirurgie esthétique, civisme et robes de mariage : ce que je refuse de porter pour les autres">
+          <div class="episode-number">26</div>
+          <div class="episode-body">
+            <h3>26. Chirurgie esthétique, civisme et robes de mariage : ce que je refuse de porter pour les autres</h3>
+            <p>La chirurgie esthétique en Corée, le civisme et les signes de réussite révèlent des rapports très différents à l'apparence et aux règles collectives. Vicky se demande aussi jusqu'où elle peut soutenir une amie sans prendre sur elle des responsabilités qui ne lui appartiennent pas.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-26-chirurgie-esth-tique-civisme-et-robes-de-mariage-ce-que-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-26-chirurgie-esth-tique-civisme-et-robes-de-mariage-ce-que-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-26-chirurgie-esth-tique-civisme-et-robes-de-mariage-ce-que.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="retrouver mes camarades de français : pratiquer une langue sans nourrir ses préjugés">
+          <div class="episode-number">25</div>
+          <div class="episode-body">
+            <h3>25. Retrouver mes camarades de français : pratiquer une langue sans nourrir ses préjugés</h3>
+            <p>En retrouvant d'anciennes camarades de français, Vicky mesure à quelle vitesse une langue change lorsqu'on ne la pratique plus. La soirée ouvre aussi une réflexion plus inconfortable sur la sécurité à Genève et sur les stéréotypes que la peur peut installer en nous.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-25-retrouver-mes-camarades-de-fran-ais-pratiquer-une-langu-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-25-retrouver-mes-camarades-de-fran-ais-pratiquer-une-langu-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-25-retrouver-mes-camarades-de-fran-ais-pratiquer-une-langu.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="de just dance à l’opéra de paris : les talents qu’on suit et ceux qu’on abandonne">
+          <div class="episode-number">24</div>
+          <div class="episode-body">
+            <h3>24. De Just Dance à l’Opéra de Paris : les talents qu’on suit et ceux qu’on abandonne</h3>
+            <p>De Stardew Valley à Just Dance, une conversation légère fait ressurgir des histoires de talent, de discipline et de chemins abandonnés. Vicky réfléchit à ce que le jeu et la danse peuvent nous apprendre sur la liberté d'essayer, même lorsque l'on ne se croit pas douée.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-24-de-just-dance-l-op-ra-de-paris-les-talents-qu-on-suit-e-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-24-de-just-dance-l-op-ra-de-paris-les-talents-qu-on-suit-e-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-24-de-just-dance-l-op-ra-de-paris-les-talents-qu-on-suit-e.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="chercher la maturité à bali : méditation, astrologie et lente éducation des émotions">
+          <div class="episode-number">23</div>
+          <div class="episode-body">
+            <h3>23. Chercher la maturité à Bali : méditation, astrologie et lente éducation des émotions</h3>
+            <p>À Bali comme à Genève, les conversations sur la méditation, la thérapie et la comparaison sociale ramènent à une même question : comment devenir plus clair avec ses émotions ? Vicky découvre que la maturité ne vient pas soudainement, mais se construit par une attention patiente à soi-même.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-23-chercher-la-maturit-bali-m-ditation-astrologie-et-lente-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-23-chercher-la-maturit-bali-m-ditation-astrologie-et-lente-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-23-chercher-la-maturit-bali-m-ditation-astrologie-et-lente.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="allaysa, de manille aux états-unis : grandir sans stabilité et vouloir repartir de zéro">
+          <div class="episode-number">22</div>
+          <div class="episode-body">
+            <h3>22. Allaysa, de Manille aux États-Unis : grandir sans stabilité et vouloir repartir de zéro</h3>
+            <p>Vicky raconte avec tendresse le parcours d'Allaysa, marqué par une enfance instable, l'absence de repères parentaux et la peur d'être abandonnée. Derrière sa fragilité apparaît pourtant une jeune femme capable de survivre, de partir et d'espérer recommencer autrement.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-22-allaysa-de-manille-aux-tats-unis-grandir-sans-stabilit--2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-22-allaysa-de-manille-aux-tats-unis-grandir-sans-stabilit--2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-22-allaysa-de-manille-aux-tats-unis-grandir-sans-stabilit-.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="stardew valley jusqu’à 8 h 59 : nostalgie, fuite et luxe d’avoir du temps">
+          <div class="episode-number">21</div>
+          <div class="episode-body">
+            <h3>21. Stardew Valley jusqu’à 8 h 59 : nostalgie, fuite et luxe d’avoir du temps</h3>
+            <p>Une nuit passée sur Stardew Valley ramène Vicky vers les jeux de son enfance et le plaisir d'habiter un monde plus simple. Elle y voit une échappatoire, mais aussi une autre forme de luxe : disposer de temps, créer à son rythme et retrouver un sentiment de liberté.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-21-stardew-valley-jusqu-8-h-59-nostalgie-fuite-et-luxe-d-a-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-21-stardew-valley-jusqu-8-h-59-nostalgie-fuite-et-luxe-d-a-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-21-stardew-valley-jusqu-8-h-59-nostalgie-fuite-et-luxe-d-a.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="reprendre des études à trente ans : sport, littérature et peur du nouveau semestre">
+          <div class="episode-number">20</div>
+          <div class="episode-body">
+            <h3>20. Reprendre des études à trente ans : sport, littérature et peur du nouveau semestre</h3>
+            <p>À l'approche d'un nouveau semestre, Vicky partage ses hésitations sur les études et la direction à donner à son avenir. La formation en psychothérapie de sa professeure nourrit aussi son envie de mieux comprendre les autres, sans cesser d'apprendre à se connaître elle-même.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-20-reprendre-des-tudes-trente-ans-sport-litt-rature-et-peu-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-20-reprendre-des-tudes-trente-ans-sport-litt-rature-et-peu-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-20-reprendre-des-tudes-trente-ans-sport-litt-rature-et-peu.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="une villa à bali ou un appartement à versoix : où peut-on encore se sentir chez soi ?">
+          <div class="episode-number">19</div>
+          <div class="episode-body">
+            <h3>19. Une villa à Bali ou un appartement à Versoix : où peut-on encore se sentir chez soi ?</h3>
+            <p>Entre une maison accessible à Bali et un appartement millionnaire près de Genève, les écarts immobiliers donnent le vertige. Vicky examine ce que signifie acheter, s'installer et se sentir chez soi lorsque les prix, les frontières et les projets de vie restent incertains.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-19-une-villa-bali-ou-un-appartement-versoix-o-peut-on-enco-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-19-une-villa-bali-ou-un-appartement-versoix-o-peut-on-enco-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-19-une-villa-bali-ou-un-appartement-versoix-o-peut-on-enco.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="huit mètres carrés à tokyo : classes sociales, minimalisme et fatigue du monde">
+          <div class="episode-number">18</div>
+          <div class="episode-body">
+            <h3>18. Huit mètres carrés à Tokyo : classes sociales, minimalisme et fatigue du monde</h3>
+            <p>La lecture d'un récit sur une femme vivant dans huit mètres carrés à Tokyo mène Vicky vers une réflexion plus vaste sur les classes sociales et l'épuisement économique. De la Chine à l'Europe, elle cherche ce qu'il reste lorsque l'on retire le statut, la consommation et la course à la réussite.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-18-huit-m-tres-carr-s-tokyo-classes-sociales-minimalisme-e-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-18-huit-m-tres-carr-s-tokyo-classes-sociales-minimalisme-e-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-18-huit-m-tres-carr-s-tokyo-classes-sociales-minimalisme-e.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="choisir un master quand le corps dit stop : ambition, fatigue et le calme de mon mari">
+          <div class="episode-number">17</div>
+          <div class="episode-body">
+            <h3>17. Choisir un master quand le corps dit stop : ambition, fatigue et le calme de mon mari</h3>
+            <p>Alors qu'elle choisit son futur master et imagine de nouvelles possibilités professionnelles, Vicky se sent aussi physiquement épuisée. Face au tempérament plus tranquille de son mari, elle se demande jusqu'où poursuivre ses ambitions et quand accepter que ce qui est déjà là puisse suffire.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-17-choisir-un-master-quand-le-corps-dit-stop-ambition-fati-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-17-choisir-un-master-quand-le-corps-dit-stop-ambition-fati-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-17-choisir-un-master-quand-le-corps-dit-stop-ambition-fati.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="admise à hec lausanne après le chômage : reconstruire une identité au-delà de la maternité">
+          <div class="episode-number">16</div>
+          <div class="episode-body">
+            <h3>16. Admise à HEC Lausanne après le chômage : reconstruire une identité au-delà de la maternité</h3>
+            <p>Après une longue période de chômage, une admission à HEC Lausanne offre à Vicky une nouvelle direction. Elle parle de ses désillusions professionnelles, de la pression exercée sur les femmes et de son désir de définir la réussite selon ses propres valeurs.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-16-admise-hec-lausanne-apr-s-le-ch-mage-reconstruire-une-i-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-16-admise-hec-lausanne-apr-s-le-ch-mage-reconstruire-une-i-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-16-admise-hec-lausanne-apr-s-le-ch-mage-reconstruire-une-i.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="le dalf c1 comme boussole : pourquoi je planifie quand mes amies improvisent">
+          <div class="episode-number">15</div>
+          <div class="episode-body">
+            <h3>15. Le DALF C1 comme boussole : pourquoi je planifie quand mes amies improvisent</h3>
+            <p>Le DALF C1 donne à Vicky une structure et un cap pendant une période sans emploi. En observant des amies plus spontanées, elle s'interroge toutefois sur son besoin de tout planifier et sur la place qu'elle pourrait laisser à l'imprévu.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-15-le-dalf-c1-comme-boussole-pourquoi-je-planifie-quand-me-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-15-le-dalf-c1-comme-boussole-pourquoi-je-planifie-quand-me-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-15-le-dalf-c1-comme-boussole-pourquoi-je-planifie-quand-me.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="voyager avec un passeport chinois : mariage, visa taïwanais et sécurité en suisse">
+          <div class="episode-number">14</div>
+          <div class="episode-body">
+            <h3>14. Voyager avec un passeport chinois : mariage, visa taïwanais et sécurité en Suisse</h3>
+            <p>Une demande de visa pour Taïwan rappelle à Vicky combien un passeport peut déterminer la liberté de voyager. Elle raconte aussi comment le mariage et le droit de séjour lui ont apporté de la sécurité, tout en soulevant des questions de dépendance, d'identité et de choix personnel.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-14-voyager-avec-un-passeport-chinois-mariage-visa-ta-wanai-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-14-voyager-avec-un-passeport-chinois-mariage-visa-ta-wanai-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-14-voyager-avec-un-passeport-chinois-mariage-visa-ta-wanai.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="ma professeure devient psychothérapeute : ce que sa reconversion réveille en moi">
+          <div class="episode-number">13</div>
+          <div class="episode-body">
+            <h3>13. Ma professeure devient psychothérapeute : ce que sa reconversion réveille en moi</h3>
+            <p>La reconversion de sa professeure vers la psychothérapie pousse Vicky à regarder son propre parcours autrement. Entre le besoin de contact humain, un nouveau projet d'études et des blessures familiales encore présentes, elle se trouve elle aussi à un tournant.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-13-ma-professeure-devient-psychoth-rapeute-ce-que-sa-recon-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-13-ma-professeure-devient-psychoth-rapeute-ce-que-sa-recon-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-13-ma-professeure-devient-psychoth-rapeute-ce-que-sa-recon.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="une prise de sang, mon beau-père psychiatre et mon hésitation face à la maternité">
+          <div class="episode-number">12</div>
+          <div class="episode-body">
+            <h3>12. Une prise de sang, mon beau-père psychiatre et mon hésitation face à la maternité</h3>
+            <p>Une visite médicale conduit Vicky à réfléchir au manque de soignants et à la charge émotionnelle du métier de psychiatre. La discussion se prolonge vers la famille, la transmission des blessures et cette question intime : désire-t-on réellement des enfants, ou répond-on aux attentes des autres ?</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-12-une-prise-de-sang-mon-beau-p-re-psychiatre-et-mon-h-sit-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-12-une-prise-de-sang-mon-beau-p-re-psychiatre-et-mon-h-sit-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-12-une-prise-de-sang-mon-beau-p-re-psychiatre-et-mon-h-sit.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="au salon des montres : fascinée par le savoir-faire, étrangère à ses codes">
+          <div class="episode-number">11</div>
+          <div class="episode-body">
+            <h3>11. Au salon des montres : fascinée par le savoir-faire, étrangère à ses codes</h3>
+            <p>Invitée à Watches and Wonders, Vicky observe le savoir-faire des marques autant que les codes sociaux du salon. L'émerveillement devant les montres côtoie un sentiment de distance face au prestige, aux privilèges et à la mise en scène du luxe.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-11-au-salon-des-montres-fascin-e-par-le-savoir-faire-trang-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-11-au-salon-des-montres-fascin-e-par-le-savoir-faire-trang-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-11-au-salon-des-montres-fascin-e-par-le-savoir-faire-trang.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="watches and wonders vue depuis mon mariage : le prix intime du luxe">
+          <div class="episode-number">10</div>
+          <div class="episode-body">
+            <h3>10. Watches and Wonders vue depuis mon mariage : le prix intime du luxe</h3>
+            <p>Pendant Watches and Wonders, Vicky entre brièvement dans l'univers très codifié de l'horlogerie de luxe. Derrière les beaux objets, les dîners et l'argent, elle découvre surtout des journées épuisantes, des absences et le coût humain d'une industrie fondée sur l'apparence.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-10-watches-and-wonders-vue-depuis-mon-mariage-le-prix-inti-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-10-watches-and-wonders-vue-depuis-mon-mariage-le-prix-inti-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-10-watches-and-wonders-vue-depuis-mon-mariage-le-prix-inti.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="mon ex norvégien et la rupture de mon professeur : deux manières de quitter l’amour">
+          <div class="episode-number">09</div>
+          <div class="episode-body">
+            <h3>09. Mon ex norvégien et la rupture de mon professeur : deux manières de quitter l’amour</h3>
+            <p>À travers deux séparations très différentes, Vicky examine ce qui nous attache à une relation et ce qui nous permet enfin de la quitter. Entre besoin de liberté, peur de perdre l'autre et recherche de paix intérieure, chacun semble apprendre à aimer à sa manière.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-09-mon-ex-norv-gien-et-la-rupture-de-mon-professeur-deux-m-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-09-mon-ex-norv-gien-et-la-rupture-de-mon-professeur-deux-m-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-09-mon-ex-norv-gien-et-la-rupture-de-mon-professeur-deux-m.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="du cancer au pilates : soutenir une ancienne manager et vivre entre chine et suisse">
+          <div class="episode-number">08</div>
+          <div class="episode-body">
+            <h3>08. Du cancer au Pilates : soutenir une ancienne manager et vivre entre Chine et Suisse</h3>
+            <p>Une séance de Pilates ouvre une conversation sur la maladie, la reconversion professionnelle et le courage de changer de vie. Vicky relie cette histoire aux écarts de pouvoir d'achat, aux relations familiales et à la sensation persistante de vivre entre l'Asie et l'Europe.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-08-du-cancer-au-pilates-soutenir-une-ancienne-manager-et-v-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-08-du-cancer-au-pilates-soutenir-une-ancienne-manager-et-v-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-08-du-cancer-au-pilates-soutenir-une-ancienne-manager-et-v.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="boire pour appartenir : comment l’europe a changé ma relation à l’alcool">
+          <div class="episode-number">07</div>
+          <div class="episode-body">
+            <h3>07. Boire pour appartenir : comment l’Europe a changé ma relation à l’alcool</h3>
+            <p>En comparant sa vie sociale en Chine et en Europe, Vicky questionne la place prise par l'alcool dans les rencontres et les habitudes collectives. Elle écoute aussi les réactions de son corps et se demande comment boire moins sans se couper des autres.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-07-boire-pour-appartenir-comment-l-europe-a-chang-ma-relat-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-07-boire-pour-appartenir-comment-l-europe-a-chang-ma-relat-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-07-boire-pour-appartenir-comment-l-europe-a-chang-ma-relat.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="pourquoi téléphoner en français me fait encore peur malgré mon niveau c1">
+          <div class="episode-number">06</div>
+          <div class="episode-body">
+            <h3>06. Pourquoi téléphoner en français me fait encore peur malgré mon niveau C1</h3>
+            <p>Vicky possède un bon niveau de français sur le papier, mais un simple appel au restaurant peut encore faire battre son cœur trop vite. Elle met des mots sur l'anxiété sociale, la peur d'être jugée et le long passage entre connaître une langue et oser vraiment la vivre.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-06-pourquoi-t-l-phoner-en-fran-ais-me-fait-encore-peur-mal-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-06-pourquoi-t-l-phoner-en-fran-ais-me-fait-encore-peur-mal-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-06-pourquoi-t-l-phoner-en-fran-ais-me-fait-encore-peur-mal.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="une étudiante bolivienne à hec lausanne : entraide, carrière et traces du covid">
+          <div class="episode-number">05</div>
+          <div class="episode-body">
+            <h3>05. Une étudiante bolivienne à HEC Lausanne : entraide, carrière et traces du Covid</h3>
+            <p>Un échange avec une étudiante bolivienne aide Vicky à mieux comprendre HEC Lausanne, ses bourses, son accompagnement professionnel et la solidarité entre étudiants. La conversation fait aussi apparaître les traces durables que le Covid a laissées sur les parcours universitaires et personnels.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-05-une-tudiante-bolivienne-hec-lausanne-entraide-carri-re--2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-05-une-tudiante-bolivienne-hec-lausanne-entraide-carri-re--2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-05-une-tudiante-bolivienne-hec-lausanne-entraide-carri-re-.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="mon frère m’a traitée d’égoïste : la blessure d’avoir été la fille moins aimée">
+          <div class="episode-number">04</div>
+          <div class="episode-body">
+            <h3>04. Mon frère m’a traitée d’égoïste : la blessure d’avoir été la fille moins aimée</h3>
+            <p>Une dispute avec son frère réveille chez Vicky des blessures anciennes : la préférence accordée aux garçons, l'amour qu'il fallait mériter et les attentes imposées à la fille aînée. Elle cherche comment reconnaître cette injustice sans rester prisonnière du passé.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-04-mon-fr-re-m-a-trait-e-d-go-ste-la-blessure-d-avoir-t-la-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-04-mon-fr-re-m-a-trait-e-d-go-ste-la-blessure-d-avoir-t-la-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-04-mon-fr-re-m-a-trait-e-d-go-ste-la-blessure-d-avoir-t-la.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="partir loin de ses parents : ce que la chine et la suisse attendent de leurs enfants">
+          <div class="episode-number">03</div>
+          <div class="episode-body">
+            <h3>03. Partir loin de ses parents : ce que la Chine et la Suisse attendent de leurs enfants</h3>
+            <p>Vicky compare deux manières de penser la famille : l'une fondée sur le devoir, l'entraide entre générations et la proximité, l'autre davantage tournée vers l'autonomie individuelle. Une réflexion nuancée sur ce que les enfants doivent à leurs parents et sur la liberté de construire leur propre vie.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-03-partir-loin-de-ses-parents-ce-que-la-chine-et-la-suisse-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-03-partir-loin-de-ses-parents-ce-que-la-chine-et-la-suisse-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-03-partir-loin-de-ses-parents-ce-que-la-chine-et-la-suisse.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="être une femme asiatique en europe : les blessures invisibles du décalage culturel">
+          <div class="episode-number">02</div>
+          <div class="episode-body">
+            <h3>02. Être une femme asiatique en Europe : les blessures invisibles du décalage culturel</h3>
+            <p>Que signifie être une femme asiatique en Europe et vivre entre plusieurs cultures ? Vicky parle des stéréotypes, de la solitude que certaines expériences imposent et de cette recherche quotidienne d'un endroit où se sentir pleinement comprise.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-02-tre-une-femme-asiatique-en-europe-les-blessures-invisib-2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-02-tre-une-femme-asiatique-en-europe-les-blessures-invisib-2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-02-tre-une-femme-asiatique-en-europe-les-blessures-invisib.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+        <article class="episode" data-title="quand l’ia menace les traducteurs et m’oblige à repenser ma propre valeur">
+          <div class="episode-number">01</div>
+          <div class="episode-body">
+            <h3>01. Quand l’IA menace les traducteurs et m’oblige à repenser ma propre valeur</h3>
+            <p>À partir des expériences d'une traductrice et d'un gestionnaire de patrimoine, Vicky observe comment l'intelligence artificielle transforme déjà le travail. Elle s'interroge sur les métiers menacés, les nouvelles possibilités et la place que nous souhaitons encore réserver à l'humain.</p>
+            <audio controls preload="none" src="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-01-quand-l-ia-menace-les-traducteurs-et-m-oblige-repenser--2026-06-18-vivienne-085.mp3"></audio>
+            <div class="episode-links">
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/episode-01-quand-l-ia-menace-les-traducteurs-et-m-oblige-repenser--2026-06-18-vivienne-085.mp3" target="_blank" rel="noreferrer" data-i18n="audio">Audio file</a>
+              <a class="small-link" href="https://wenminli961201-cell.github.io/vickys-french-journal-podcast/transcript-01-quand-l-ia-menace-les-traducteurs-et-m-oblige-repenser-.pdf" target="_blank" rel="noreferrer" data-i18n="pdf">PDF transcript</a>
+            </div>
+          </div>
+        </article>
+    </main>
+    <footer data-i18n="footer">Made for family listening. New Word updates can be republished from the podcast manager.</footer>
+  </div>
+  <script>
+    const messages = {
+      zh: { tagline:'一个私人法语播客总览：收听每一集、下载法语转写 PDF，也可以复制 RSS 地址在 Apple Podcasts 中订阅。', rssFeed:'打开 RSS Feed', copyFeed:'复制 Apple Podcasts 订阅地址', copied:'已复制', search:'搜索标题或简介', episodes:'集', audio:'音频文件', pdf:'法语转写 PDF', footer:'为家人收听而做。以后 Word 更新后，可从播客管理器重新发布。' },
+      en: { tagline:'A private French podcast overview: listen to every episode, download the French transcript PDF, or copy the RSS link for Apple Podcasts.', rssFeed:'Open RSS Feed', copyFeed:'Copy Apple Podcasts RSS link', copied:'Copied', search:'Search titles or descriptions', episodes:'episodes', audio:'Audio file', pdf:'French transcript PDF', footer:'Made for family listening. New Word updates can be republished from the podcast manager.' },
+      fr: { tagline:'Un aperçu privé du podcast en français : écouter chaque épisode, télécharger la transcription PDF, ou copier le lien RSS pour Apple Podcasts.', rssFeed:'Ouvrir le flux RSS', copyFeed:'Copier le lien RSS Apple Podcasts', copied:'Copié', search:'Rechercher un titre ou une description', episodes:'épisodes', audio:'Fichier audio', pdf:'Transcription PDF en français', footer:'Créé pour une écoute en famille. Les mises à jour Word peuvent être republiées depuis le gestionnaire du podcast.' }
+    };
+    let currentLang = localStorage.getItem('podcast-overview-lang') || 'zh';
+    const applyLang = (lang) => {
+      currentLang = lang; localStorage.setItem('podcast-overview-lang', lang);
+      document.documentElement.lang = lang === 'zh' ? 'zh-CN' : lang;
+      document.querySelectorAll('[data-lang]').forEach(btn => btn.classList.toggle('active', btn.dataset.lang === lang));
+      document.querySelectorAll('[data-i18n]').forEach(node => node.textContent = messages[lang][node.dataset.i18n] || node.textContent);
+      document.querySelectorAll('[data-i18n-placeholder]').forEach(node => node.placeholder = messages[lang][node.dataset.i18nPlaceholder] || node.placeholder);
+    };
+    document.querySelectorAll('[data-lang]').forEach(btn => btn.addEventListener('click', () => applyLang(btn.dataset.lang)));
+    document.getElementById('copyFeed').addEventListener('click', async () => {
+      await navigator.clipboard.writeText(document.getElementById('copyFeed').dataset.feed);
+      const copied = document.getElementById('copied'); copied.classList.add('visible'); setTimeout(() => copied.classList.remove('visible'), 1800);
+    });
+    const search = document.getElementById('search');
+    const cards = [...document.querySelectorAll('.episode')];
+    search.addEventListener('input', () => {
+      const q = search.value.trim().toLowerCase();
+      let count = 0;
+      cards.forEach(card => {
+        const show = !q || card.textContent.toLowerCase().includes(q);
+        card.style.display = show ? '' : 'none';
+        if (show) count += 1;
+      });
+      document.getElementById('visibleCount').textContent = count;
+    });
+    applyLang(currentLang);
+  </script>
+</body>
+</html>
