@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="French Journal">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#fff8ec">
+  <title>Vicky's French Journal</title>
+  <link rel="manifest" href="mobile-manifest.webmanifest">
+  <link rel="stylesheet" href="mobile-reader.css">
+</head>
+<body>
+  <div class="phone-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Vicky's French Journal</p>
+        <h1>手机温习</h1>
+      </div>
+      <button id="installHint" class="ghost">添加到桌面</button>
+    </header>
+
+    <section id="libraryView" class="screen active">
+      <label class="search">
+        <span>搜索文章、单词或句子</span>
+        <input id="searchInput" type="search" autocomplete="off" placeholder="ex. Taïwan, confiance, famille">
+      </label>
+      <div class="stats">
+        <span id="articleCount">0 篇</span>
+        <span id="cacheDate"></span>
+      </div>
+      <div id="articleList" class="article-list"></div>
+    </section>
+
+    <section id="readerView" class="screen">
+      <div class="reader-head">
+        <button id="backButton" class="ghost">返回</button>
+        <button id="focusButton" class="ghost">回到朗读处</button>
+      </div>
+      <article class="paper">
+        <h2 id="articleTitle"></h2>
+        <p id="articleMeta" class="meta"></p>
+        <div class="controls">
+          <button id="playButton" class="primary">朗读全文</button>
+          <button id="pauseButton">暂停</button>
+          <button id="stopButton">停止</button>
+          <label>语速 <input id="rateInput" type="range" min="0.65" max="1.15" step="0.05" value="0.9"><span id="rateValue">0.90x</span></label>
+        </div>
+        <div id="content" class="content"></div>
+      </article>
+    </section>
+  </div>
+
+  <div id="sheet" class="sheet" aria-hidden="true">
+    <div class="sheet-card">
+      <button id="closeSheet" class="close">×</button>
+      <p id="sheetType" class="eyebrow">单词</p>
+      <h3 id="sheetTitle"></h3>
+      <p id="translation" class="translation">正在查询...</p>
+      <div class="sheet-actions">
+        <button id="speakSelection">发音</button>
+        <a id="openTranslate" target="_blank" rel="noreferrer">打开翻译</a>
+        <a id="openDictionary" target="_blank" rel="noreferrer">词典</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="library.js"></script>
+  <script src="mobile-reader.js"></script>
+</body>
+</html>
