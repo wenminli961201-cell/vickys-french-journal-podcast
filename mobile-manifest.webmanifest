@@ -1,0 +1,17 @@
+{
+  "name": "Vicky's French Journal",
+  "short_name": "French Journal",
+  "description": "Review Vicky's French articles, words, and sentences on iPhone.",
+  "start_url": "./mobile-reader.html",
+  "display": "standalone",
+  "background_color": "#fff8ec",
+  "theme_color": "#fff8ec",
+  "icons": [
+    {
+      "src": "cover-2026-06-15.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
