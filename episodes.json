@@ -252,8 +252,7 @@
     "paragraphPauseMs": 850,
     "audioVersion": "20260722134141",
     "sourceHash": "ea4cc1b610634dc0c7bc9c2a1d65ffe180d6e925feba799105b951bd485dca45",
-    "transcript_filename": "transcript-15-le-dalf-c1-devient-ma-boussole-quand-mes-amies-improvis.pdf",
-    "needsUpload": true
+    "transcript_filename": "transcript-15-le-dalf-c1-devient-ma-boussole-quand-mes-amies-improvis.pdf"
   },
   {
     "guid": "fcc34790-c526-4c64-8bbd-decea94ac00e",
@@ -355,8 +354,7 @@
     "paragraphPauseMs": 850,
     "audioVersion": "20260722134322",
     "sourceHash": "af513752f4e57485bcf8cd834d3263af78d317213b7162c8bbc562f0c19fbc8b",
-    "transcript_filename": "transcript-21-stardew-valley-jusqu-8-h-59-me-rappelle-la-nostalgie-la.pdf",
-    "needsUpload": true
+    "transcript_filename": "transcript-21-stardew-valley-jusqu-8-h-59-me-rappelle-la-nostalgie-la.pdf"
   },
   {
     "guid": "deb74d09-c0d5-41d1-8c24-5c80c5ac863d",
@@ -373,8 +371,7 @@
     "paragraphPauseMs": 850,
     "audioVersion": "20260722134506",
     "sourceHash": "9b522eea443069b189574b886a72c02038dd2b5f73ce7fb1cb59c8caa31a9192",
-    "transcript_filename": "transcript-22-allaysa-grandit-entre-manille-et-les-tats-unis-sans-sta.pdf",
-    "needsUpload": true
+    "transcript_filename": "transcript-22-allaysa-grandit-entre-manille-et-les-tats-unis-sans-sta.pdf"
   },
   {
     "guid": "e4e2ff49-0c87-4032-8a11-3b1eb67a676c",
@@ -425,8 +422,7 @@
     "paragraphPauseMs": 850,
     "audioVersion": "20260722134803",
     "sourceHash": "d82a7ecd15961c2bd1dfcaa555680379e1c7974107b0fa002816b0d9693d2b0e",
-    "transcript_filename": "transcript-25-retrouver-mes-camarades-de-fran-ais-m-apprend-pratiquer.pdf",
-    "needsUpload": true
+    "transcript_filename": "transcript-25-retrouver-mes-camarades-de-fran-ais-m-apprend-pratiquer.pdf"
   },
   {
     "guid": "bfdb1ff4-c30b-40c8-a6d0-c061585998e8",
@@ -443,8 +439,7 @@
     "paragraphPauseMs": 850,
     "audioVersion": "20260722134937",
     "sourceHash": "2ad1d034156376e9ecb5c033d31dc87a279d22c0fbd3d9fc1a0a21fd96feef8f",
-    "transcript_filename": "transcript-26-la-chirurgie-esth-tique-le-civisme-et-les-robes-de-mari.pdf",
-    "needsUpload": true
+    "transcript_filename": "transcript-26-la-chirurgie-esth-tique-le-civisme-et-les-robes-de-mari.pdf"
   },
   {
     "guid": "b041d015-1b09-4018-9bc8-71cf9b329779",
@@ -461,8 +456,7 @@
     "paragraphPauseMs": 850,
     "audioVersion": "20260722135134",
     "sourceHash": "3255b392457e7eb68043c940486c66936c882dafbc72bdbc4adcb98cc25df06d",
-    "transcript_filename": "transcript-27-la-canicule-un-husky-et-des-mutations-professionnelles-.pdf",
-    "needsUpload": true
+    "transcript_filename": "transcript-27-la-canicule-un-husky-et-des-mutations-professionnelles-.pdf"
   },
   {
     "guid": "9509b78c-876c-4c1e-9fe5-5627462161be",
@@ -547,8 +541,7 @@
     "paragraphPauseMs": 850,
     "audioVersion": "20260722135310",
     "sourceHash": "3a01f8807617b38bc161be6d31d34d608c597345934053d0895018180e8e0d41",
-    "transcript_filename": "transcript-32-seize-robes-et-un-album-photo-r-v-lent-une-amiti-d-s-qu.pdf",
-    "needsUpload": true
+    "transcript_filename": "transcript-32-seize-robes-et-un-album-photo-r-v-lent-une-amiti-d-s-qu.pdf"
   },
   {
     "guid": "21e73659-1cb9-40db-b982-3e27bc14d467",
@@ -633,8 +626,7 @@
     "paragraphPauseMs": 850,
     "audioVersion": "20260722135437",
     "sourceHash": "b54419f1f90fc98be58cfdfd931d889998f52a5b5705fd4e96dac5bac273b7c6",
-    "transcript_filename": "transcript-37-grandir-s-loigner-et-r-sister-quand-l-amour-des-proches.pdf",
-    "needsUpload": true
+    "transcript_filename": "transcript-37-grandir-s-loigner-et-r-sister-quand-l-amour-des-proches.pdf"
   },
   {
     "guid": "3deb6f0a-2c44-46cb-b91b-2e788fa8bee7",
@@ -719,7 +711,6 @@
     "paragraphPauseMs": 850,
     "audioVersion": "20260722135610",
     "sourceHash": "010773ee94630946d3cbaefbfee8ae32e3b3ddfbcbde28fcd14b152ce10dc5e0",
-    "needsUpload": true,
     "transcript_filename": "transcript-42-rentrer-chez-moi-et-me-retrouver-seule-face-au-d-sordre.pdf"
   }
 ]
