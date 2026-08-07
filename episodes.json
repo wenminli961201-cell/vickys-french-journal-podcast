@@ -733,7 +733,7 @@
   {
     "guid": "3b7dda4b-3a12-4bc7-98c9-1a5538cb26a1",
     "title": "Une semaine à Chengdu et les réflexions qu'un cours de maquillage a fait naître en moi",
-    "description": "Ces dernières semaines, j'ai passé une semaine à Chengdu. Pourtant, lorsque je repense à ce voyage, j'ai l'impression d'y être restée beaucoup plus longtemps. À partir de cette scène, Vicky interroge les attentes familiales et les blessures intimes et les lieux qui déplacent le regard sur soi dans une réflexion personnelle et située. Des noms et des lieux concrets traversent le récit — Une, Chengdu, Ces et Les — et empêchent la réflexion de rester abstraite.",
+    "description": "Dans cet ?pisode, Vicky revient sur une semaine pass?e ? Chengdu, o? un cours de maquillage devient le point de d?part d'une r?flexion inattendue. Entre retrouvailles familiales, regard port? sur le corps et d?sir de se sentir plus libre, elle observe comment de petits gestes peuvent r?v?ler des tensions tr?s anciennes.",
     "creator": "Gut Vogel",
     "published": "2026-08-07T09:19:38+00:00",
     "pubDate": "Fri, 07 Aug 2026 09:19:38 +0000",
@@ -745,7 +745,6 @@
     "paragraphPauseMs": 850,
     "audioVersion": "20260807091451",
     "sourceHash": "d3088fc3c9cd664c5bb0bfe3b4c36f338a45829e53848e9f447984f967679b63",
-    "needsUpload": true,
     "transcript_filename": "transcript-44-une-semaine-chengdu-et-les-r-flexions-qu-un-cours-de-ma.pdf"
   }
 ]
