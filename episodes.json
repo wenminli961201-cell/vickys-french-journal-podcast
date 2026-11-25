@@ -1010,7 +1010,7 @@
   {
     "guid": "18a68b5d-e43d-401f-b53a-b4354504160e",
     "title": "Des événements professionnels aux cours de danse, je commence à ressentir les limites de mon emploi du temps",
-    "description": "Hier, Vicky s'est rendue à Vevey, au siège social de Nestlé, pour assister à un événement organisé par l'entreprise. D'ailleurs, les cours de danse de salon ne sont pas toujours aussi agréables qu'on pourrait l'imaginer.",
+    "description": "Venue à Nestlé pour élargir son réseau, Vicky se retrouve surtout à conseiller de jeunes étudiants et mesure le prix d'une journée préparée avec soin. Entre cours, trajets, danse et Pilates, la fatigue l'oblige à faire le tri et à accepter que protéger son énergie compte davantage que vouloir tout faire.",
     "creator": "Gut Vogel",
     "published": "2026-11-25T11:28:29+00:00",
     "pubDate": "Wed, 25 Nov 2026 11:28:29 +0000",
@@ -1023,7 +1023,6 @@
     "audioVersion": "20261125112029",
     "sourceHash": "44767e38d6fa067db726ac458e64e8880a52e9bf7c301d0af588b6cc15b8cc9a",
     "sourceTextHash": "da09e6b25352119bfcf9990d479dbeaf2cb7be30b4ef94d94002f20abcf94180",
-    "needsUpload": true,
     "transcript_filename": "transcript-57-des-v-nements-professionnels-aux-cours-de-danse-je-comm.pdf"
   }
 ]
